@@ -9,9 +9,11 @@
 #import "hdhGlobalState.h"
 #import "hdhTheme.h"
 
-#define kGameType  @"Game Type"
-#define kTheme     @"Theme"
-#define kBoardSize @"Board Size"
+//[@"游戏样式", @"格子数量", @"主题风格"];
+
+#define kGameType  @"游戏样式"
+#define kTheme     @"主题风格"
+#define kBoardSize @"格子数量"
 #define kBestScore @"Best Score"
 
 @interface hdhGlobalState ()

@@ -115,6 +115,8 @@
   if (indexPath.section) {
     cell.textLabel.text = @"About 2048";
     cell.detailTextLabel.text = @"";
+//    cell.removeFromSuperview;
+      cell.hidden = YES;
   } else {
     cell.textLabel.text = [_options objectAtIndex:indexPath.row];
     
