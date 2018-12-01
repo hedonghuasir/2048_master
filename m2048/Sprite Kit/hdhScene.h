@@ -13,7 +13,7 @@
 
 @interface hdhScene : SKScene
 
-@property (nonatomic, weak) hdhViewController *delegate;
+@property (nonatomic, weak) hdhViewController *controller;
 
 - (void)startNewGame;
 

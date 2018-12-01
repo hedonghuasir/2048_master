@@ -67,7 +67,7 @@
   [scene startNewGame];
   
   _scene = scene;
-  _scene.delegate = self;
+  _scene.controller = self;
     [self gcdTimerTest];
     //    [self get1];
 //        AVObject *todoFolder = [[AVObject alloc] initWithClassName:@"JumpSwitch"];// 构建对象
