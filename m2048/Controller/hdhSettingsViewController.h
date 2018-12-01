@@ -1,5 +1,5 @@
 //
-//  hdhAppDelegate.h
+//  hdhSettingsViewController.h
 //  hdh048
 //
 //  Created by Danqing on 3/16/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface hdhAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface hdhSettingsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end

@@ -1,17 +1,17 @@
 //
-//  M2Cell.m
-//  m2048
+//  hdhCell.m
+//  hdh048
 //
 //  Created by Danqing on 3/17/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2Cell.h"
-#import "M2Tile.h"
+#import "hdhCell.h"
+#import "hdhTile.h"
 
-@implementation M2Cell
+@implementation hdhCell
 
-- (instancetype)initWithPosition:(M2Position)position
+- (instancetype)initWithPosition:(hdhPosition)position
 {
   if (self = [super init]) {
     self.position = position;
@@ -21,7 +21,7 @@
 }
 
 
-- (void)setTile:(M2Tile *)tile
+- (void)setTile:(hdhTile *)tile
 {
   _tile = tile;
   if (tile) tile.cell = self;

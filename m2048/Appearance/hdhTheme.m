@@ -1,21 +1,21 @@
 //
-//  M2Theme.m
-//  m2048
+//  hdhTheme.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2Theme.h"
+#import "hdhTheme.h"
 
 #define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 #define HEX(c)       [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0]
 
 
-@interface M2DefaultTheme : NSObject <M2Theme>
+@interface hdhDefaultTheme : NSObject <hdhTheme>
 @end
 
-@implementation M2DefaultTheme
+@implementation hdhDefaultTheme
 
 + (UIColor *)colorForLevel:(NSInteger)level
 {
@@ -105,10 +105,10 @@
 @end
 
 
-@interface M2VibrantTheme : NSObject <M2Theme>
+@interface hdhVibrantTheme : NSObject <hdhTheme>
 @end
 
-@implementation M2VibrantTheme
+@implementation hdhVibrantTheme
 
 + (UIColor *)colorForLevel:(NSInteger)level
 {
@@ -208,10 +208,10 @@
 
 
 
-@interface M2JoyfulTheme : NSObject <M2Theme>
+@interface hdhJoyfulTheme : NSObject <hdhTheme>
 @end
 
-@implementation M2JoyfulTheme
+@implementation hdhJoyfulTheme
 
 + (UIColor *)colorForLevel:(NSInteger)level
 {
@@ -326,17 +326,17 @@
 @end
 
 
-@implementation M2Theme
+@implementation hdhTheme
 
 + (Class)themeClassForType:(NSInteger)type
 {
   switch (type) {
     case 1:
-      return [M2VibrantTheme class];
+      return [hdhVibrantTheme class];
     case 2:
-      return [M2JoyfulTheme class];
+      return [hdhJoyfulTheme class];
     default:
-      return [M2DefaultTheme class];
+      return [hdhDefaultTheme class];
   }
 }
 

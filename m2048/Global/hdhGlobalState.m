@@ -1,20 +1,20 @@
 //
-//  M2GlobalState.m
-//  m2048
+//  hdhGlobalState.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2GlobalState.h"
-#import "M2Theme.h"
+#import "hdhGlobalState.h"
+#import "hdhTheme.h"
 
 #define kGameType  @"Game Type"
 #define kTheme     @"Theme"
 #define kBoardSize @"Board Size"
 #define kBestScore @"Best Score"
 
-@interface M2GlobalState ()
+@interface hdhGlobalState ()
 
 @property (nonatomic, readwrite) NSInteger dimension;
 @property (nonatomic, readwrite) NSInteger winningLevel;
@@ -24,21 +24,21 @@
 @property (nonatomic, readwrite) NSInteger horizontalOffset;
 @property (nonatomic, readwrite) NSInteger verticalOffset;
 @property (nonatomic, readwrite) NSTimeInterval animationDuration;
-@property (nonatomic, readwrite) M2GameType gameType;
+@property (nonatomic, readwrite) hdhGameType gameType;
 @property (nonatomic) NSInteger theme;
 
 @end
 
 
-@implementation M2GlobalState
+@implementation hdhGlobalState
 
-+ (M2GlobalState *)state
++ (hdhGlobalState *)state
 {
-  static M2GlobalState *state = nil;
+  static hdhGlobalState *state = nil;
   
   static dispatch_once_t once;
   dispatch_once(&once, ^{
-    state = [[M2GlobalState alloc] init];
+    state = [[hdhGlobalState alloc] init];
   });
   
   return state;
@@ -103,7 +103,7 @@
 
 - (NSInteger)winningLevel
 {
-  if (GSTATE.gameType == M2GameTypePowerOf3) {
+  if (GSTATE.gameType == hdhGameTypePowerOf3) {
     switch (self.dimension) {
       case 3: return 4;
       case 4: return 5;
@@ -121,7 +121,7 @@
 
 - (BOOL)isLevel:(NSInteger)level1 mergeableWithLevel:(NSInteger)level2
 {
-  if (self.gameType == M2GameTypeFibonacci) {
+  if (self.gameType == hdhGameTypeFibonacci) {
     return abs((int)level1 - (int)level2) == 1;
   }
   return level1 == level2;
@@ -132,7 +132,7 @@
 {
   if (![self isLevel:level1 mergeableWithLevel:level2]) return 0;
   
-  if (self.gameType == M2GameTypeFibonacci) {
+  if (self.gameType == hdhGameTypeFibonacci) {
     return (level1 + 1 == level2) ? level2 + 1 : level1 + 1;
   }
   return level1 + 1;
@@ -141,7 +141,7 @@
 
 - (NSInteger)valueForLevel:(NSInteger)level
 {
-  if (self.gameType == M2GameTypeFibonacci) {
+  if (self.gameType == hdhGameTypeFibonacci) {
     NSInteger a = 1;
     NSInteger b = 1;
     for (NSInteger i = 0; i < level; i++) {
@@ -152,7 +152,7 @@
     return b;
   } else {
     NSInteger value = 1;
-    NSInteger base = self.gameType == M2GameTypePowerOf2 ? 2 : 3;
+    NSInteger base = self.gameType == hdhGameTypePowerOf2 ? 2 : 3;
     for (NSInteger i = 0; i < level; i++) {
       value *= base;
     }
@@ -165,13 +165,13 @@
 
 - (UIColor *)colorForLevel:(NSInteger)level
 {
-  return [[M2Theme themeClassForType:self.theme] colorForLevel:level];
+  return [[hdhTheme themeClassForType:self.theme] colorForLevel:level];
 }
 
 
 - (UIColor *)textColorForLevel:(NSInteger)level
 {
-  return [[M2Theme themeClassForType:self.theme] textColorForLevel:level];
+  return [[hdhTheme themeClassForType:self.theme] textColorForLevel:level];
 }
 
 
@@ -195,61 +195,61 @@
 
 - (UIColor *)backgroundColor
 {
-  return [[M2Theme themeClassForType:self.theme] backgroundColor];
+  return [[hdhTheme themeClassForType:self.theme] backgroundColor];
 }
 
 
 - (UIColor *)scoreBoardColor
 {
-  return [[M2Theme themeClassForType:self.theme] scoreBoardColor];
+  return [[hdhTheme themeClassForType:self.theme] scoreBoardColor];
 }
 
 
 - (UIColor *)boardColor
 {
-  return [[M2Theme themeClassForType:self.theme] boardColor];
+  return [[hdhTheme themeClassForType:self.theme] boardColor];
 }
 
 
 - (UIColor *)buttonColor
 {
-  return [[M2Theme themeClassForType:self.theme] buttonColor];
+  return [[hdhTheme themeClassForType:self.theme] buttonColor];
 }
 
 
 - (NSString *)boldFontName
 {
-  return [[M2Theme themeClassForType:self.theme] boldFontName];
+  return [[hdhTheme themeClassForType:self.theme] boldFontName];
 }
 
 
 - (NSString *)regularFontName
 {
-  return [[M2Theme themeClassForType:self.theme] regularFontName];
+  return [[hdhTheme themeClassForType:self.theme] regularFontName];
 }
 
 # pragma mark - Position to point conversion
 
-- (CGPoint)locationOfPosition:(M2Position)position
+- (CGPoint)locationOfPosition:(hdhPosition)position
 {
   return CGPointMake([self xLocationOfPosition:position] + self.horizontalOffset,
                      [self yLocationOfPosition:position] + self.verticalOffset);
 }
 
 
-- (CGFloat)xLocationOfPosition:(M2Position)position
+- (CGFloat)xLocationOfPosition:(hdhPosition)position
 {
   return position.y * (GSTATE.tileSize + GSTATE.borderWidth) + GSTATE.borderWidth;
 }
 
 
-- (CGFloat)yLocationOfPosition:(M2Position)position
+- (CGFloat)yLocationOfPosition:(hdhPosition)position
 {
   return position.x * (GSTATE.tileSize + GSTATE.borderWidth) + GSTATE.borderWidth;
 }
 
 
-- (CGVector)distanceFromPosition:(M2Position)oldPosition toPosition:(M2Position)newPosition
+- (CGVector)distanceFromPosition:(hdhPosition)oldPosition toPosition:(hdhPosition)newPosition
 {
   CGFloat unitDistance = GSTATE.tileSize + GSTATE.borderWidth;
   return CGVectorMake((newPosition.y - oldPosition.y) * unitDistance,

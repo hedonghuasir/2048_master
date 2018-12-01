@@ -1,6 +1,6 @@
 //
-//  M2GameManager.h
-//  m2048
+//  hdhGameManager.h
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
@@ -8,24 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
-@class M2Scene;
-@class M2Grid;
+@class hdhScene;
+@class hdhGrid;
 
-typedef NS_ENUM(NSInteger, M2Direction) {
-  M2DirectionUp,
-  M2DirectionLeft,
-  M2DirectionDown,
-  M2DirectionRight
+typedef NS_ENUM(NSInteger, hdhDirection) {
+  hdhDirectionUp,
+  hdhDirectionLeft,
+  hdhDirectionDown,
+  hdhDirectionRight
 };
 
-@interface M2GameManager : NSObject
+@interface hdhGameManager : NSObject
 
 /**
  * Starts a new session with the provided scene.
  *
  * @param scene The scene in which the game happens.
  */
-- (void)startNewSessionWithScene:(M2Scene *)scene;
+- (void)startNewSessionWithScene:(hdhScene *)scene;
 
 /**
  * Moves all movable tiles to the desired direction, then add one more tile to the grid.
@@ -33,6 +33,6 @@ typedef NS_ENUM(NSInteger, M2Direction) {
  *
  * @param direction The direction of the move (up, right, down, left).
  */
-- (void)moveToDirection:(M2Direction)direction;
+- (void)moveToDirection:(hdhDirection)direction;
 
 @end

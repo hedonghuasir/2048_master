@@ -1,31 +1,31 @@
 //
-//  M2ViewController.m
-//  m2048
+//  hdhViewController.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2ViewController.h"
-#import "M2SettingsViewController.h"
+#import "hdhViewController.h"
+#import "hdhSettingsViewController.h"
 
-#import "M2Scene.h"
-#import "M2GameManager.h"
-#import "M2ScoreView.h"
-#import "M2Overlay.h"
-#import "M2GridView.h"
+#import "hdhScene.h"
+#import "hdhGameManager.h"
+#import "hdhScoreView.h"
+#import "hdhOverlay.h"
+#import "hdhGridView.h"
 
-@implementation M2ViewController {
+@implementation hdhViewController {
   IBOutlet UIButton *_restartButton;
   IBOutlet UIButton *_settingsButton;
   IBOutlet UILabel *_targetScore;
   IBOutlet UILabel *_subtitle;
-  IBOutlet M2ScoreView *_scoreView;
-  IBOutlet M2ScoreView *_bestView;
+  IBOutlet hdhScoreView *_scoreView;
+  IBOutlet hdhScoreView *_bestView;
   
-  M2Scene *_scene;
+  hdhScene *_scene;
   
-  IBOutlet M2Overlay *_overlay;
+  IBOutlet hdhOverlay *_overlay;
   IBOutlet UIImageView *_overlayBackground;
 }
 
@@ -50,7 +50,7 @@
   SKView * skView = (SKView *)self.view;
   
   // Create and configure the scene.
-  M2Scene * scene = [M2Scene sceneWithSize:skView.bounds.size];
+  hdhScene * scene = [hdhScene sceneWithSize:skView.bounds.size];
   scene.scaleMode = SKSceneScaleModeAspectFill;
   
   // Present the scene.
@@ -161,7 +161,7 @@
   }
   
   // Fake the overlay background as a mask on the board.
-  _overlayBackground.image = [M2GridView gridImageWithOverlay];
+  _overlayBackground.image = [hdhGridView gridImageWithOverlay];
   
   // Center the overlay in the board.
   CGFloat verticalOffset = [[UIScreen mainScreen] bounds].size.height - GSTATE.verticalOffset;

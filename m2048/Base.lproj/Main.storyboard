@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="CtS-rA-C9T">
             <objects>
-                <viewController id="LVB-YS-i5n" customClass="M2ViewController" sceneMemberID="viewController">
+                <viewController id="LVB-YS-i5n" customClass="hdhViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TvN-0d-DFh"/>
                         <viewControllerLayoutGuide type="bottom" id="aVg-JY-jeM"/>
@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OSi-g6-ogB" customClass="M2ScoreView">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OSi-g6-ogB" customClass="hdhScoreView">
                                 <rect key="frame" x="230" y="44" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -45,7 +45,7 @@
                                     <outlet property="title" destination="4Xw-5I-xFm" id="kXa-xX-Dgj"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MHo-Xg-Gu9" customClass="M2ScoreView">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MHo-Xg-Gu9" customClass="hdhScoreView">
                                 <rect key="frame" x="149" y="44" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -104,7 +104,7 @@
                                     <segue destination="pW0-EP-ySa" kind="modal" identifier="Settings Segue" id="GHf-K9-Vj5"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yN-A6-bWQ" customClass="M2Overlay">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yN-A6-bWQ" customClass="hdhOverlay">
                                 <rect key="frame" x="60" y="237" width="200" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -172,7 +172,7 @@
         <!--Settings View Controller - Settings-->
         <scene sceneID="6xC-WK-Uzx">
             <objects>
-                <viewController id="xld-lF-X62" customClass="M2SettingsViewController" sceneMemberID="viewController">
+                <viewController id="xld-lF-X62" customClass="hdhSettingsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tKz-ht-c83"/>
                         <viewControllerLayoutGuide type="bottom" id="9PL-uX-ptk"/>
@@ -278,7 +278,7 @@ Additional contributions by Scott Matthewman</mutableString>
         <!--Settings Detail View Controller-->
         <scene sceneID="cGn-sm-IaZ">
             <objects>
-                <tableViewController id="evu-uo-nI6" customClass="M2SettingsDetailViewController" sceneMemberID="viewController">
+                <tableViewController id="evu-uo-nI6" customClass="hdhSettingsDetailViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="3WO-CJ-mrs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

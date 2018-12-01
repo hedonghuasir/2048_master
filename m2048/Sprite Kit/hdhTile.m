@@ -1,6 +1,6 @@
 //
-//  M2Tile.m
-//  m2048
+//  hdhTile.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
@@ -8,10 +8,10 @@
 
 #include <stdlib.h>
 
-#import "M2Tile.h"
-#import "M2Cell.h"
+#import "hdhTile.h"
+#import "hdhCell.h"
 
-@implementation M2Tile {
+@implementation hdhTile {
   /** The value of the tile, as some text. */
   SKLabelNode *_value;
   
@@ -22,9 +22,9 @@
 
 # pragma mark - Tile creation
 
-+ (M2Tile *)insertNewTileToCell:(M2Cell *)cell
++ (hdhTile *)insertNewTileToCell:(hdhCell *)cell
 {
-  M2Tile *tile = [[M2Tile alloc] init];
+  hdhTile *tile = [[hdhTile alloc] init];
   
   // The initial position of the tile is at the center of its cell. This is so because when
   // scaling the tile, SpriteKit does so from the origin, not the center. So we have to scale
@@ -61,7 +61,7 @@
     // For Fibonacci game, which is way harder than 2048 IMO, 40 seems to be the easiest number.
     // 90 definitely won't work, as we need approximately equal number of 2 and 3 to make the
     // game remotely makes sense.
-    if (GSTATE.gameType == M2GameTypeFibonacci) self.level = arc4random_uniform(100) < 40 ? 1 : 2;
+    if (GSTATE.gameType == hdhGameTypeFibonacci) self.level = arc4random_uniform(100) < 40 ? 1 : 2;
     else self.level = arc4random_uniform(100) < 95 ? 1 : 2;
     
     [self refreshValue];
@@ -96,14 +96,14 @@
 }
 
 
-- (BOOL)canMergeWithTile:(M2Tile *)tile
+- (BOOL)canMergeWithTile:(hdhTile *)tile
 {
   if (!tile) return NO;
   return [GSTATE isLevel:self.level mergeableWithLevel:tile.level];
 }
 
 
-- (NSInteger)mergeToTile:(M2Tile *)tile
+- (NSInteger)mergeToTile:(hdhTile *)tile
 {
   // Cannot merge with thin air. Also cannot merge with tile that has a pending merge.
   // For the latter, imagine we have 4, 2, 2. If we move to the right, it will first
@@ -126,7 +126,7 @@
 }
 
 
-- (NSInteger)merge3ToTile:(M2Tile *)tile andTile:(M2Tile *)furtherTile
+- (NSInteger)merge3ToTile:(hdhTile *)tile andTile:(hdhTile *)furtherTile
 {
   if (!tile || [tile hasPendingMerge] || [furtherTile hasPendingMerge]) return 0;
   
@@ -169,7 +169,7 @@
 }
 
 
-- (void)moveToCell:(M2Cell *)cell
+- (void)moveToCell:(hdhCell *)cell
 {
   [_pendingActions addObject:[SKAction moveBy:[GSTATE distanceFromPosition:self.cell.position
                                                                 toPosition:cell.position]

@@ -1,25 +1,25 @@
 //
-//  M2GlobalState.h
-//  m2048
+//  hdhGlobalState.h
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "M2Position.h"
+#import "hdhPosition.h"
 
-#define GSTATE [M2GlobalState state]
+#define GSTATE [hdhGlobalState state]
 #define Settings [NSUserDefaults standardUserDefaults]
 #define NotifCtr [NSNotificationCenter defaultCenter]
 
-typedef NS_ENUM(NSInteger, M2GameType) {
-  M2GameTypeFibonacci = 2,
-  M2GameTypePowerOf2 = 0,
-  M2GameTypePowerOf3 = 1
+typedef NS_ENUM(NSInteger, hdhGameType) {
+  hdhGameTypeFibonacci = 2,
+  hdhGameTypePowerOf2 = 0,
+  hdhGameTypePowerOf3 = 1
 };
 
-@interface M2GlobalState : NSObject
+@interface hdhGlobalState : NSObject
 
 @property (nonatomic, readonly) NSInteger dimension;
 @property (nonatomic, readonly) NSInteger winningLevel;
@@ -29,12 +29,12 @@ typedef NS_ENUM(NSInteger, M2GameType) {
 @property (nonatomic, readonly) NSInteger horizontalOffset;
 @property (nonatomic, readonly) NSInteger verticalOffset;
 @property (nonatomic, readonly) NSTimeInterval animationDuration;
-@property (nonatomic, readonly) M2GameType gameType;
+@property (nonatomic, readonly) hdhGameType gameType;
 
 @property (nonatomic) BOOL needRefresh;
 
 /** The singleton instance of state. */
-+ (M2GlobalState *)state;
++ (hdhGlobalState *)state;
 
 /** Refreshes global state to reflect user choice. */
 - (void)loadGlobalState;
@@ -108,7 +108,7 @@ typedef NS_ENUM(NSInteger, M2GameType) {
  * @param position The position we are interested in.
  * @return The location in points, relative to the grid.
  */
-- (CGPoint)locationOfPosition:(M2Position)position;
+- (CGPoint)locationOfPosition:(hdhPosition)position;
 
 /**
  * The starting x location of the position.
@@ -116,7 +116,7 @@ typedef NS_ENUM(NSInteger, M2GameType) {
  * @param position The position we are interested in.
  * @return The x location in points, relative to the grid.
  */
-- (CGFloat)xLocationOfPosition:(M2Position)position;
+- (CGFloat)xLocationOfPosition:(hdhPosition)position;
 
 /**
  * The starting y location of the position.
@@ -124,9 +124,9 @@ typedef NS_ENUM(NSInteger, M2GameType) {
  * @param position The position we are interested in.
  * @return The y location in points, relative to the grid.
  */
-- (CGFloat)yLocationOfPosition:(M2Position)position;
+- (CGFloat)yLocationOfPosition:(hdhPosition)position;
 
 
-- (CGVector)distanceFromPosition:(M2Position)oldPosition toPosition:(M2Position)newPosition;
+- (CGVector)distanceFromPosition:(hdhPosition)oldPosition toPosition:(hdhPosition)newPosition;
 
 @end

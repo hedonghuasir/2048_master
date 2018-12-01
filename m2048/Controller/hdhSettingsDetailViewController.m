@@ -1,18 +1,18 @@
 //
-//  M2SettingsDetailViewController.m
-//  m2048
+//  hdhSettingsDetailViewController.m
+//  hdh048
 //
 //  Created by Danqing on 3/24/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2SettingsDetailViewController.h"
+#import "hdhSettingsDetailViewController.h"
 
-@interface M2SettingsDetailViewController ()
+@interface hdhSettingsDetailViewController ()
 
 @end
 
-@implementation M2SettingsDetailViewController
+@implementation hdhSettingsDetailViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {

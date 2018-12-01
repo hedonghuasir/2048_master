@@ -1,14 +1,14 @@
 //
-//  M2ScoreView.m
-//  m2048
+//  hdhScoreView.m
+//  hdh048
 //
 //  Created by Danqing on 3/23/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2ScoreView.h"
+#import "hdhScoreView.h"
 
-@implementation M2ScoreView
+@implementation hdhScoreView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

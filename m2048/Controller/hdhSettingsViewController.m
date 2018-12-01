@@ -1,20 +1,20 @@
 //
-//  M2SettingsViewController.m
-//  m2048
+//  hdhSettingsViewController.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2SettingsViewController.h"
-#import "M2SettingsDetailViewController.h"
+#import "hdhSettingsViewController.h"
+#import "hdhSettingsDetailViewController.h"
 
-@interface M2SettingsViewController ()
+@interface hdhSettingsViewController ()
 
 @end
 
 
-@implementation M2SettingsViewController {
+@implementation hdhSettingsViewController {
   IBOutlet UITableView *_tableView;
   NSArray *_options;
   NSArray *_optionSelections;
@@ -79,7 +79,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
   if ([segue.identifier isEqualToString:@"Settings Detail Segue"]) {
-    M2SettingsDetailViewController *sdvc = segue.destinationViewController;
+    hdhSettingsDetailViewController *sdvc = segue.destinationViewController;
     
     NSInteger index = [_tableView indexPathForSelectedRow].row;
     sdvc.title = [_options objectAtIndex:index];

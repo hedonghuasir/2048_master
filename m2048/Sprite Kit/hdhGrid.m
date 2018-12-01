@@ -1,24 +1,24 @@
 //
-//  M2Grid.m
-//  m2048
+//  hdhGrid.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 #include "stdlib.h"
 
-#import "M2Grid.h"
-#import "M2Tile.h"
-#import "M2Scene.h"
+#import "hdhGrid.h"
+#import "hdhTile.h"
+#import "hdhScene.h"
 
-@interface M2Grid ()
+@interface hdhGrid ()
 
 @property (nonatomic, readwrite) NSInteger dimension;
 
 @end
 
 
-@implementation M2Grid {
+@implementation hdhGrid {
   /* The 2-D grid that keeps track of all cells and tiles. */
   NSMutableArray *_grid;
 }
@@ -32,7 +32,7 @@
     for (NSInteger i = 0; i < dimension; i++) {
       NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:dimension];
       for (NSInteger j = 0; j < dimension; j++) {
-        [array addObject:[[M2Cell alloc] initWithPosition:M2PositionMake(i, j)]];
+        [array addObject:[[hdhCell alloc] initWithPosition:hdhPositionMake(i, j)]];
       }
       [_grid addObject:array];
     }
@@ -54,13 +54,13 @@
   if (!reverse) {
     for (NSInteger i = 0; i < self.dimension; i++) {
       for (NSInteger j = 0; j < self.dimension; j++) {
-        block(M2PositionMake(i, j));
+        block(hdhPositionMake(i, j));
       }
     }
   } else {
     for (NSInteger i = self.dimension - 1; i >= 0; i--) {
       for (NSInteger j = self.dimension - 1; j >= 0; j--) {
-        block(M2PositionMake(i, j));
+        block(hdhPositionMake(i, j));
       }
     }
   }
@@ -69,7 +69,7 @@
 
 # pragma mark - Position helpers
 
-- (M2Cell *)cellAtPosition:(M2Position)position
+- (hdhCell *)cellAtPosition:(hdhPosition)position
 {
   if (position.x >= self.dimension || position.y >= self.dimension ||
       position.x < 0 || position.y < 0) return nil;
@@ -77,9 +77,9 @@
 }
 
 
-- (M2Tile *)tileAtPosition:(M2Position)position
+- (hdhTile *)tileAtPosition:(hdhPosition)position
 {
-  M2Cell *cell = [self cellAtPosition:position];
+  hdhCell *cell = [self cellAtPosition:position];
   return cell ? cell.tile : nil;
 }
 
@@ -97,7 +97,7 @@
  *
  * @return A randomly chosen available cell, or nil if no cell is available.
  */
-- (M2Cell *)randomAvailableCell
+- (hdhCell *)randomAvailableCell
 {
   NSArray *availableCells = [self availableCells];
   if (availableCells.count) {
@@ -115,8 +115,8 @@
 - (NSArray *)availableCells
 {
   NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:self.dimension * self.dimension];
-  [self forEach:^(M2Position position) {
-    M2Cell *cell = [self cellAtPosition:position];
+  [self forEach:^(hdhPosition position) {
+    hdhCell *cell = [self cellAtPosition:position];
     if (!cell.tile) [array addObject:cell];
   } reverseOrder:NO];
   return array;
@@ -127,9 +127,9 @@
 
 - (void)insertTileAtRandomAvailablePositionWithDelay:(BOOL)delay
 {
-  M2Cell *cell = [self randomAvailableCell];
+  hdhCell *cell = [self randomAvailableCell];
   if (cell) {
-    M2Tile *tile = [M2Tile insertNewTileToCell:cell];
+    hdhTile *tile = [hdhTile insertNewTileToCell:cell];
     [self.scene addChild:tile];
     
     SKAction *delayAction = delay ? [SKAction waitForDuration:GSTATE.animationDuration * 3] :
@@ -144,8 +144,8 @@
 
 - (void)removeAllTilesAnimated:(BOOL)animated
 {
-  [self forEach:^(M2Position position) {
-    M2Tile *tile = [self tileAtPosition:position];
+  [self forEach:^(hdhPosition position) {
+    hdhTile *tile = [self tileAtPosition:position];
     if (tile) [tile removeAnimated:animated];
   } reverseOrder:NO];
 }

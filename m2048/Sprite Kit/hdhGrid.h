@@ -1,26 +1,26 @@
 //
-//  M2Grid.h
-//  m2048
+//  hdhGrid.h
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "M2Cell.h"
+#import "hdhCell.h"
 
-@class M2Scene;
+@class hdhScene;
 
-typedef void (^IteratorBlock)(M2Position);
+typedef void (^IteratorBlock)(hdhPosition);
 
 
-@interface M2Grid : NSObject
+@interface hdhGrid : NSObject
 
 /** The dimension of the grid. */
 @property (nonatomic, readonly) NSInteger dimension;
 
 /** The scene in which the game happens. */
-@property (nonatomic, weak) M2Scene *scene;
+@property (nonatomic, weak) hdhScene *scene;
 
 
 /**
@@ -32,7 +32,7 @@ typedef void (^IteratorBlock)(M2Position);
 
 
 /**
- * Iterates over the grid and calls the block, which takes in the M2Position
+ * Iterates over the grid and calls the block, which takes in the hdhPosition
  * of the current cell. Has the option to iterate in the reverse order.
  *
  * @param block The block to be applied to each cell position.
@@ -47,7 +47,7 @@ typedef void (^IteratorBlock)(M2Position);
  * @param position The position we are interested in.
  * @return The cell at the position. If position out of bound, returns nil.
  */
-- (M2Cell *)cellAtPosition:(M2Position)position;
+- (hdhCell *)cellAtPosition:(hdhPosition)position;
 
 
 /**
@@ -56,7 +56,7 @@ typedef void (^IteratorBlock)(M2Position);
  * @param position The position we are interested in.
  * @return The tile at the position. If position out of bound or cell empty, returns nil.
  */
-- (M2Tile *)tileAtPosition:(M2Position)position;
+- (hdhTile *)tileAtPosition:(hdhPosition)position;
 
 
 /**

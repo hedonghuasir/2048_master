@@ -21,19 +21,19 @@
 		2443DC7E18D662CA00C920C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5918D662CA00C920C1 /* UIKit.framework */; };
 		2443DC8618D662CA00C920C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2443DC8418D662CA00C920C1 /* InfoPlist.strings */; };
 		2443DC8818D662CA00C920C1 /* m2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC8718D662CA00C920C1 /* m2048Tests.m */; };
-		2443DC9A18D663FC00C920C1 /* M2Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC9618D663FC00C920C1 /* M2Scene.m */; };
-		2443DC9B18D663FC00C920C1 /* M2GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC9918D663FC00C920C1 /* M2GameManager.m */; };
-		2443DCA018D6647000C920C1 /* M2SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC9F18D6647000C920C1 /* M2SettingsViewController.m */; };
-		2443DCA318D6649500C920C1 /* M2Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DCA218D6649500C920C1 /* M2Theme.m */; };
-		2443DCA618D66CCC00C920C1 /* M2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DCA518D66CCC00C920C1 /* M2ViewController.m */; };
-		2443DCAF18D6C18400C920C1 /* M2Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DCAE18D6C18400C920C1 /* M2Tile.m */; };
-		24C4515B18D6DC4A0001FCFD /* M2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4515A18D6DC4A0001FCFD /* M2Cell.m */; };
-		24C4515E18D6DC740001FCFD /* M2Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4515D18D6DC740001FCFD /* M2Grid.m */; };
-		24C4516418DABABE0001FCFD /* M2GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516218DABABE0001FCFD /* M2GlobalState.m */; };
-		24C4516818DD64A90001FCFD /* M2GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516718DD64A90001FCFD /* M2GridView.m */; };
-		24C4517018DFF10B0001FCFD /* M2ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* M2ScoreView.m */; };
-		24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */; };
-		24C4518118E265390001FCFD /* M2Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* M2Overlay.m */; };
+		2443DC9A18D663FC00C920C1 /* hdhScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC9618D663FC00C920C1 /* hdhScene.m */; };
+		2443DC9B18D663FC00C920C1 /* hdhGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC9918D663FC00C920C1 /* hdhGameManager.m */; };
+		2443DCA018D6647000C920C1 /* hdhSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC9F18D6647000C920C1 /* hdhSettingsViewController.m */; };
+		2443DCA318D6649500C920C1 /* hdhTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DCA218D6649500C920C1 /* hdhTheme.m */; };
+		2443DCA618D66CCC00C920C1 /* hdhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DCA518D66CCC00C920C1 /* hdhViewController.m */; };
+		2443DCAF18D6C18400C920C1 /* hdhTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DCAE18D6C18400C920C1 /* hdhTile.m */; };
+		24C4515B18D6DC4A0001FCFD /* hdhCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4515A18D6DC4A0001FCFD /* hdhCell.m */; };
+		24C4515E18D6DC740001FCFD /* hdhGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4515D18D6DC740001FCFD /* hdhGrid.m */; };
+		24C4516418DABABE0001FCFD /* hdhGlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516218DABABE0001FCFD /* hdhGlobalState.m */; };
+		24C4516818DD64A90001FCFD /* hdhGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516718DD64A90001FCFD /* hdhGridView.m */; };
+		24C4517018DFF10B0001FCFD /* hdhScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* hdhScoreView.m */; };
+		24C4517318E140AE0001FCFD /* hdhSettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */; };
+		24C4518118E265390001FCFD /* hdhOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* hdhOverlay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,33 +65,33 @@
 		2443DC8318D662CA00C920C1 /* m2048Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "m2048Tests-Info.plist"; sourceTree = "<group>"; };
 		2443DC8518D662CA00C920C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2443DC8718D662CA00C920C1 /* m2048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = m2048Tests.m; sourceTree = "<group>"; };
-		2443DC9518D663FC00C920C1 /* M2Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Scene.h; sourceTree = "<group>"; };
-		2443DC9618D663FC00C920C1 /* M2Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Scene.m; sourceTree = "<group>"; };
-		2443DC9818D663FC00C920C1 /* M2GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2GameManager.h; sourceTree = "<group>"; };
-		2443DC9918D663FC00C920C1 /* M2GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2GameManager.m; sourceTree = "<group>"; };
-		2443DC9E18D6647000C920C1 /* M2SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2SettingsViewController.h; sourceTree = "<group>"; };
-		2443DC9F18D6647000C920C1 /* M2SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2SettingsViewController.m; sourceTree = "<group>"; };
-		2443DCA118D6649500C920C1 /* M2Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Theme.h; sourceTree = "<group>"; };
-		2443DCA218D6649500C920C1 /* M2Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Theme.m; sourceTree = "<group>"; };
-		2443DCA418D66CCC00C920C1 /* M2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2ViewController.h; sourceTree = "<group>"; };
-		2443DCA518D66CCC00C920C1 /* M2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2ViewController.m; sourceTree = "<group>"; };
-		2443DCAD18D6C18400C920C1 /* M2Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Tile.h; sourceTree = "<group>"; };
-		2443DCAE18D6C18400C920C1 /* M2Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Tile.m; sourceTree = "<group>"; };
-		24C4515918D6DC4A0001FCFD /* M2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Cell.h; sourceTree = "<group>"; };
-		24C4515A18D6DC4A0001FCFD /* M2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Cell.m; sourceTree = "<group>"; };
-		24C4515C18D6DC740001FCFD /* M2Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Grid.h; sourceTree = "<group>"; };
-		24C4515D18D6DC740001FCFD /* M2Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Grid.m; sourceTree = "<group>"; };
-		24C4516118DABABE0001FCFD /* M2GlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2GlobalState.h; sourceTree = "<group>"; };
-		24C4516218DABABE0001FCFD /* M2GlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2GlobalState.m; sourceTree = "<group>"; };
-		24C4516318DABABE0001FCFD /* M2Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Position.h; sourceTree = "<group>"; };
-		24C4516618DD64A90001FCFD /* M2GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2GridView.h; sourceTree = "<group>"; };
-		24C4516718DD64A90001FCFD /* M2GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2GridView.m; sourceTree = "<group>"; };
-		24C4516E18DFF10B0001FCFD /* M2ScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2ScoreView.h; sourceTree = "<group>"; };
-		24C4516F18DFF10B0001FCFD /* M2ScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2ScoreView.m; sourceTree = "<group>"; };
-		24C4517118E140AE0001FCFD /* M2SettingsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2SettingsDetailViewController.h; sourceTree = "<group>"; };
-		24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2SettingsDetailViewController.m; sourceTree = "<group>"; };
-		24C4517F18E265390001FCFD /* M2Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Overlay.h; sourceTree = "<group>"; };
-		24C4518018E265390001FCFD /* M2Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Overlay.m; sourceTree = "<group>"; };
+		2443DC9518D663FC00C920C1 /* hdhScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhScene.h; sourceTree = "<group>"; };
+		2443DC9618D663FC00C920C1 /* hdhScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhScene.m; sourceTree = "<group>"; };
+		2443DC9818D663FC00C920C1 /* hdhGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGameManager.h; sourceTree = "<group>"; };
+		2443DC9918D663FC00C920C1 /* hdhGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGameManager.m; sourceTree = "<group>"; };
+		2443DC9E18D6647000C920C1 /* hdhSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhSettingsViewController.h; sourceTree = "<group>"; };
+		2443DC9F18D6647000C920C1 /* hdhSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhSettingsViewController.m; sourceTree = "<group>"; };
+		2443DCA118D6649500C920C1 /* hdhTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhTheme.h; sourceTree = "<group>"; };
+		2443DCA218D6649500C920C1 /* hdhTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhTheme.m; sourceTree = "<group>"; };
+		2443DCA418D66CCC00C920C1 /* hdhViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhViewController.h; sourceTree = "<group>"; };
+		2443DCA518D66CCC00C920C1 /* hdhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhViewController.m; sourceTree = "<group>"; };
+		2443DCAD18D6C18400C920C1 /* hdhTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhTile.h; sourceTree = "<group>"; };
+		2443DCAE18D6C18400C920C1 /* hdhTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhTile.m; sourceTree = "<group>"; };
+		24C4515918D6DC4A0001FCFD /* hdhCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhCell.h; sourceTree = "<group>"; };
+		24C4515A18D6DC4A0001FCFD /* hdhCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhCell.m; sourceTree = "<group>"; };
+		24C4515C18D6DC740001FCFD /* hdhGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGrid.h; sourceTree = "<group>"; };
+		24C4515D18D6DC740001FCFD /* hdhGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGrid.m; sourceTree = "<group>"; };
+		24C4516118DABABE0001FCFD /* hdhGlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGlobalState.h; sourceTree = "<group>"; };
+		24C4516218DABABE0001FCFD /* hdhGlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGlobalState.m; sourceTree = "<group>"; };
+		24C4516318DABABE0001FCFD /* hdhPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhPosition.h; sourceTree = "<group>"; };
+		24C4516618DD64A90001FCFD /* hdhGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGridView.h; sourceTree = "<group>"; };
+		24C4516718DD64A90001FCFD /* hdhGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGridView.m; sourceTree = "<group>"; };
+		24C4516E18DFF10B0001FCFD /* hdhScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhScoreView.h; sourceTree = "<group>"; };
+		24C4516F18DFF10B0001FCFD /* hdhScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhScoreView.m; sourceTree = "<group>"; };
+		24C4517118E140AE0001FCFD /* hdhSettingsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhSettingsDetailViewController.h; sourceTree = "<group>"; };
+		24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhSettingsDetailViewController.m; sourceTree = "<group>"; };
+		24C4517F18E265390001FCFD /* hdhOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhOverlay.h; sourceTree = "<group>"; };
+		24C4518018E265390001FCFD /* hdhOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhOverlay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,14 +200,14 @@
 		2443DC9418D663FC00C920C1 /* Sprite Kit */ = {
 			isa = PBXGroup;
 			children = (
-				24C4515918D6DC4A0001FCFD /* M2Cell.h */,
-				24C4515A18D6DC4A0001FCFD /* M2Cell.m */,
-				24C4515C18D6DC740001FCFD /* M2Grid.h */,
-				24C4515D18D6DC740001FCFD /* M2Grid.m */,
-				2443DC9518D663FC00C920C1 /* M2Scene.h */,
-				2443DC9618D663FC00C920C1 /* M2Scene.m */,
-				2443DCAD18D6C18400C920C1 /* M2Tile.h */,
-				2443DCAE18D6C18400C920C1 /* M2Tile.m */,
+				24C4515918D6DC4A0001FCFD /* hdhCell.h */,
+				24C4515A18D6DC4A0001FCFD /* hdhCell.m */,
+				24C4515C18D6DC740001FCFD /* hdhGrid.h */,
+				24C4515D18D6DC740001FCFD /* hdhGrid.m */,
+				2443DC9518D663FC00C920C1 /* hdhScene.h */,
+				2443DC9618D663FC00C920C1 /* hdhScene.m */,
+				2443DCAD18D6C18400C920C1 /* hdhTile.h */,
+				2443DCAE18D6C18400C920C1 /* hdhTile.m */,
 			);
 			path = "Sprite Kit";
 			sourceTree = "<group>";
@@ -215,8 +215,8 @@
 		2443DC9718D663FC00C920C1 /* State */ = {
 			isa = PBXGroup;
 			children = (
-				2443DC9818D663FC00C920C1 /* M2GameManager.h */,
-				2443DC9918D663FC00C920C1 /* M2GameManager.m */,
+				2443DC9818D663FC00C920C1 /* hdhGameManager.h */,
+				2443DC9918D663FC00C920C1 /* hdhGameManager.m */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -224,8 +224,8 @@
 		2443DC9C18D6645800C920C1 /* Appearance */ = {
 			isa = PBXGroup;
 			children = (
-				2443DCA118D6649500C920C1 /* M2Theme.h */,
-				2443DCA218D6649500C920C1 /* M2Theme.m */,
+				2443DCA118D6649500C920C1 /* hdhTheme.h */,
+				2443DCA218D6649500C920C1 /* hdhTheme.m */,
 			);
 			path = Appearance;
 			sourceTree = "<group>";
@@ -233,12 +233,12 @@
 		2443DC9D18D6645800C920C1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2443DCA418D66CCC00C920C1 /* M2ViewController.h */,
-				2443DCA518D66CCC00C920C1 /* M2ViewController.m */,
-				2443DC9E18D6647000C920C1 /* M2SettingsViewController.h */,
-				2443DC9F18D6647000C920C1 /* M2SettingsViewController.m */,
-				24C4517118E140AE0001FCFD /* M2SettingsDetailViewController.h */,
-				24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */,
+				2443DCA418D66CCC00C920C1 /* hdhViewController.h */,
+				2443DCA518D66CCC00C920C1 /* hdhViewController.m */,
+				2443DC9E18D6647000C920C1 /* hdhSettingsViewController.h */,
+				2443DC9F18D6647000C920C1 /* hdhSettingsViewController.m */,
+				24C4517118E140AE0001FCFD /* hdhSettingsDetailViewController.h */,
+				24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,9 +246,9 @@
 		24C4516018DABABE0001FCFD /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				24C4516118DABABE0001FCFD /* M2GlobalState.h */,
-				24C4516218DABABE0001FCFD /* M2GlobalState.m */,
-				24C4516318DABABE0001FCFD /* M2Position.h */,
+				24C4516118DABABE0001FCFD /* hdhGlobalState.h */,
+				24C4516218DABABE0001FCFD /* hdhGlobalState.m */,
+				24C4516318DABABE0001FCFD /* hdhPosition.h */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -256,12 +256,12 @@
 		24C4516518DD64630001FCFD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				24C4516618DD64A90001FCFD /* M2GridView.h */,
-				24C4516718DD64A90001FCFD /* M2GridView.m */,
-				24C4516E18DFF10B0001FCFD /* M2ScoreView.h */,
-				24C4516F18DFF10B0001FCFD /* M2ScoreView.m */,
-				24C4517F18E265390001FCFD /* M2Overlay.h */,
-				24C4518018E265390001FCFD /* M2Overlay.m */,
+				24C4516618DD64A90001FCFD /* hdhGridView.h */,
+				24C4516718DD64A90001FCFD /* hdhGridView.m */,
+				24C4516E18DFF10B0001FCFD /* hdhScoreView.h */,
+				24C4516F18DFF10B0001FCFD /* hdhScoreView.m */,
+				24C4517F18E265390001FCFD /* hdhOverlay.h */,
+				24C4518018E265390001FCFD /* hdhOverlay.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -367,21 +367,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443DCA618D66CCC00C920C1 /* M2ViewController.m in Sources */,
+				2443DCA618D66CCC00C920C1 /* hdhViewController.m in Sources */,
 				2443DC6418D662CA00C920C1 /* main.m in Sources */,
-				24C4515B18D6DC4A0001FCFD /* M2Cell.m in Sources */,
-				24C4516818DD64A90001FCFD /* M2GridView.m in Sources */,
-				2443DC9A18D663FC00C920C1 /* M2Scene.m in Sources */,
-				24C4515E18D6DC740001FCFD /* M2Grid.m in Sources */,
-				24C4518118E265390001FCFD /* M2Overlay.m in Sources */,
-				2443DCAF18D6C18400C920C1 /* M2Tile.m in Sources */,
-				2443DCA018D6647000C920C1 /* M2SettingsViewController.m in Sources */,
-				24C4517018DFF10B0001FCFD /* M2ScoreView.m in Sources */,
-				2443DCA318D6649500C920C1 /* M2Theme.m in Sources */,
-				24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */,
-				24C4516418DABABE0001FCFD /* M2GlobalState.m in Sources */,
+				24C4515B18D6DC4A0001FCFD /* hdhCell.m in Sources */,
+				24C4516818DD64A90001FCFD /* hdhGridView.m in Sources */,
+				2443DC9A18D663FC00C920C1 /* hdhScene.m in Sources */,
+				24C4515E18D6DC740001FCFD /* hdhGrid.m in Sources */,
+				24C4518118E265390001FCFD /* hdhOverlay.m in Sources */,
+				2443DCAF18D6C18400C920C1 /* hdhTile.m in Sources */,
+				2443DCA018D6647000C920C1 /* hdhSettingsViewController.m in Sources */,
+				24C4517018DFF10B0001FCFD /* hdhScoreView.m in Sources */,
+				2443DCA318D6649500C920C1 /* hdhTheme.m in Sources */,
+				24C4517318E140AE0001FCFD /* hdhSettingsDetailViewController.m in Sources */,
+				24C4516418DABABE0001FCFD /* hdhGlobalState.m in Sources */,
 				2443DC6818D662CA00C920C1 /* hdhAppDelegate.m in Sources */,
-				2443DC9B18D663FC00C920C1 /* M2GameManager.m in Sources */,
+				2443DC9B18D663FC00C920C1 /* hdhGameManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

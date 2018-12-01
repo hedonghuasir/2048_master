@@ -1,16 +1,16 @@
 //
-//  M2GameManager.m
-//  m2048
+//  hdhGameManager.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2GameManager.h"
-#import "M2Grid.h"
-#import "M2Tile.h"
-#import "M2Scene.h"
-#import "M2ViewController.h"
+#import "hdhGameManager.h"
+#import "hdhGrid.h"
+#import "hdhTile.h"
+#import "hdhScene.h"
+#import "hdhViewController.h"
 
 /**
  * Helper function that checks the termination condition of either counting up or down.
@@ -26,7 +26,7 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
 }
 
 
-@implementation M2GameManager {
+@implementation hdhGameManager {
   /* True if game over. */
   BOOL _over;
   
@@ -43,13 +43,13 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
   NSInteger _pendingScore;
   
   /* The grid on which everything happens. */
-  M2Grid *_grid;
+  hdhGrid *_grid;
 }
 
 
 # pragma mark - Setup
 
-- (void)startNewSessionWithScene:(M2Scene *)scene
+- (void)startNewSessionWithScene:(hdhScene *)scene
 {
   if (_grid && _grid.dimension == GSTATE.dimension) {
     // If there is an existing grid and its dimension is still valid,
@@ -57,7 +57,7 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
     [_grid removeAllTilesAnimated:YES];
   } else {
     if (_grid) [_grid removeAllTilesAnimated:NO];
-    _grid = [[M2Grid alloc] initWithDimension:GSTATE.dimension];
+    _grid = [[hdhGrid alloc] initWithDimension:GSTATE.dimension];
     _grid.scene = scene;
   }
   
@@ -74,21 +74,21 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
 
 # pragma mark - Actions
 
-- (void)moveToDirection:(M2Direction)direction
+- (void)moveToDirection:(hdhDirection)direction
 {
-  __block M2Tile *tile = nil;
+  __block hdhTile *tile = nil;
   
   // Remember that the coordinate system of SpriteKit is the reverse of that of UIKit.
-  BOOL reverse = direction == M2DirectionUp || direction == M2DirectionRight;
+  BOOL reverse = direction == hdhDirectionUp || direction == hdhDirectionRight;
   NSInteger unit = reverse ? 1 : -1;
   
-  if (direction == M2DirectionUp || direction == M2DirectionDown) {
-    [_grid forEach:^(M2Position position) {
+  if (direction == hdhDirectionUp || direction == hdhDirectionDown) {
+    [_grid forEach:^(hdhPosition position) {
       if ((tile = [_grid tileAtPosition:position])) {
         // Find farthest position to move to.
         NSInteger target = position.x;
         for (NSInteger i = position.x + unit; iterate(i, reverse, _grid.dimension, -1); i += unit) {
-          M2Tile *t = [_grid tileAtPosition:M2PositionMake(i, position.y)];
+          hdhTile *t = [_grid tileAtPosition:hdhPositionMake(i, position.y)];
           
           // Empty cell; we can move at least to here.
           if (!t) target = i;
@@ -97,9 +97,9 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
           else {
             NSInteger level = 0;
             
-            if (GSTATE.gameType == M2GameTypePowerOf3) {
-              M2Position further = M2PositionMake(i + unit, position.y);
-              M2Tile *ft = [_grid tileAtPosition:further];
+            if (GSTATE.gameType == hdhGameTypePowerOf3) {
+              hdhPosition further = hdhPositionMake(i + unit, position.y);
+              hdhTile *ft = [_grid tileAtPosition:further];
               if (ft) {
                 level = [tile merge3ToTile:t andTile:ft];
               }
@@ -118,7 +118,7 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
         
         // The current tile is movable.
         if (target != position.x) {
-          [tile moveToCell:[_grid cellAtPosition:M2PositionMake(target, position.y)]];
+          [tile moveToCell:[_grid cellAtPosition:hdhPositionMake(target, position.y)]];
           _pendingScore++;
         }
       }
@@ -126,20 +126,20 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
   }
   
   else {
-    [_grid forEach:^(M2Position position) {
+    [_grid forEach:^(hdhPosition position) {
       if ((tile = [_grid tileAtPosition:position])) {
         NSInteger target = position.y;
         for (NSInteger i = position.y + unit; iterate(i, reverse, _grid.dimension, -1); i += unit) {
-          M2Tile *t = [_grid tileAtPosition:M2PositionMake(position.x, i)];
+          hdhTile *t = [_grid tileAtPosition:hdhPositionMake(position.x, i)];
           
           if (!t) target = i;
 
           else {
             NSInteger level = 0;
             
-            if (GSTATE.gameType == M2GameTypePowerOf3) {
-              M2Position further = M2PositionMake(position.x, i + unit);
-              M2Tile *ft = [_grid tileAtPosition:further];
+            if (GSTATE.gameType == hdhGameTypePowerOf3) {
+              hdhPosition further = hdhPositionMake(position.x, i + unit);
+              hdhTile *ft = [_grid tileAtPosition:further];
               if (ft) {
                 level = [tile merge3ToTile:t andTile:ft];
               }
@@ -158,7 +158,7 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
         
         // The current tile is movable.
         if (target != position.y) {
-          [tile moveToCell:[_grid cellAtPosition:M2PositionMake(position.x, target)]];
+          [tile moveToCell:[_grid cellAtPosition:hdhPositionMake(position.x, target)]];
           _pendingScore++;
         }
       }
@@ -169,8 +169,8 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
   if (!_pendingScore) return;
   
   // Commit tile movements.
-  [_grid forEach:^(M2Position position) {
-    M2Tile *tile = [_grid tileAtPosition:position];
+  [_grid forEach:^(hdhPosition position) {
+    hdhTile *tile = [_grid tileAtPosition:position];
     if (tile) {
       [tile commitPendingActions];
       if (tile.level >= GSTATE.winningLevel) _won = YES;
@@ -190,7 +190,7 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
     
   // Add one more tile to the grid.
   [_grid insertTileAtRandomAvailablePositionWithDelay:YES];
-  if (GSTATE.dimension == 5 && GSTATE.gameType == M2GameTypePowerOf2)
+  if (GSTATE.dimension == 5 && GSTATE.gameType == hdhGameTypePowerOf2)
     [_grid insertTileAtRandomAvailablePositionWithDelay:YES];
     
   if (![self movesAvailable]) {
@@ -240,23 +240,23 @@ BOOL iterate(NSInteger value, BOOL countUp, NSInteger upper, NSInteger lower) {
   for (NSInteger i = 0; i < _grid.dimension; i++) {
     for (NSInteger j = 0; j < _grid.dimension; j++) {
       // Due to symmetry, we only need to check for tiles to the right and down.
-      M2Tile *tile = [_grid tileAtPosition:M2PositionMake(i, j)];
+      hdhTile *tile = [_grid tileAtPosition:hdhPositionMake(i, j)];
       
       // Continue with next iteration if the tile does not exist. Note that this means that
       // the cell is empty. For our current usage, it will never happen. It is only in place
       // in case we want to use this function by itself.
       if (!tile) continue;
       
-      if (GSTATE.gameType == M2GameTypePowerOf3) {
-        if (([tile canMergeWithTile:[_grid tileAtPosition:M2PositionMake(i + 1, j)]] &&
-             [tile canMergeWithTile:[_grid tileAtPosition:M2PositionMake(i + 2, j)]]) ||
-            ([tile canMergeWithTile:[_grid tileAtPosition:M2PositionMake(i, j + 1)]] &&
-             [tile canMergeWithTile:[_grid tileAtPosition:M2PositionMake(i, j + 2)]])) {
+      if (GSTATE.gameType == hdhGameTypePowerOf3) {
+        if (([tile canMergeWithTile:[_grid tileAtPosition:hdhPositionMake(i + 1, j)]] &&
+             [tile canMergeWithTile:[_grid tileAtPosition:hdhPositionMake(i + 2, j)]]) ||
+            ([tile canMergeWithTile:[_grid tileAtPosition:hdhPositionMake(i, j + 1)]] &&
+             [tile canMergeWithTile:[_grid tileAtPosition:hdhPositionMake(i, j + 2)]])) {
           return YES;
         }
       } else {
-        if ([tile canMergeWithTile:[_grid tileAtPosition:M2PositionMake(i + 1, j)]] ||
-            [tile canMergeWithTile:[_grid tileAtPosition:M2PositionMake(i, j + 1)]]) {
+        if ([tile canMergeWithTile:[_grid tileAtPosition:hdhPositionMake(i + 1, j)]] ||
+            [tile canMergeWithTile:[_grid tileAtPosition:hdhPositionMake(i, j + 1)]]) {
           return YES;
         }
       }

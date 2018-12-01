@@ -1,15 +1,15 @@
 //
-//  M2GridView.m
-//  m2048
+//  hdhGridView.m
+//  hdh048
 //
 //  Created by Danqing on 3/21/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2GridView.h"
-#import "M2Grid.h"
+#import "hdhGridView.h"
+#import "hdhGrid.h"
 
-@implementation M2GridView
+@implementation hdhGridView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -30,15 +30,15 @@
 }
 
 
-+ (UIImage *)gridImageWithGrid:(M2Grid *)grid
++ (UIImage *)gridImageWithGrid:(hdhGrid *)grid
 {
   UIView *backgroundView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   backgroundView.backgroundColor = [GSTATE backgroundColor];
   
-  M2GridView *view = [[M2GridView alloc] init];
+  hdhGridView *view = [[hdhGridView alloc] init];
   [backgroundView addSubview:view];
   
-  [grid forEach:^(M2Position position) {
+  [grid forEach:^(hdhPosition position) {
     CALayer *layer = [CALayer layer];
     CGPoint point = [GSTATE locationOfPosition:position];
     
@@ -53,7 +53,7 @@
     [backgroundView.layer addSublayer:layer];
   } reverseOrder:NO];
   
-  return [M2GridView snapshotWithView:backgroundView];
+  return [hdhGridView snapshotWithView:backgroundView];
 }
 
 
@@ -63,11 +63,11 @@
   backgroundView.backgroundColor = [UIColor clearColor];
   backgroundView.opaque = NO;
   
-  M2GridView *view = [[M2GridView alloc] init];
+  hdhGridView *view = [[hdhGridView alloc] init];
   view.backgroundColor = [[GSTATE backgroundColor] colorWithAlphaComponent:0.8];
   [backgroundView addSubview:view];
   
-  return [M2GridView snapshotWithView:backgroundView];
+  return [hdhGridView snapshotWithView:backgroundView];
 }
 
 

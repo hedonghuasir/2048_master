@@ -1,14 +1,14 @@
 //
-//  M2Scene.m
-//  m2048
+//  hdhScene.m
+//  hdh048
 //
 //  Created by Danqing on 3/16/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2Scene.h"
-#import "M2GameManager.h"
-#import "M2GridView.h"
+#import "hdhScene.h"
+#import "hdhGameManager.h"
+#import "hdhGridView.h"
 
 // The min distance in one direction for an effective swipe.
 #define EFFECTIVE_SWIPE_DISTANCE_THRESHOLD 20.0f
@@ -17,9 +17,9 @@
 // to make a swipe valid. i.e. diagonal swipes are invalid.
 #define VALID_SWIPE_DIRECTION_THRESHOLD 2.0f
 
-@implementation M2Scene {
+@implementation hdhScene {
   /** The game manager that controls all the logic of the game. */
-  M2GameManager *_manager;
+  hdhGameManager *_manager;
   
   /**
    * Each swipe triggers at most one action, and we don't wait the swipe to complete
@@ -33,14 +33,14 @@
 - (id)initWithSize:(CGSize)size
 {
   if (self = [super initWithSize:size]) {
-    _manager = [[M2GameManager alloc] init];
+    _manager = [[hdhGameManager alloc] init];
   }
   return self;
 }
 
-- (void)loadBoardWithGrid:(M2Grid *)grid
+- (void)loadBoardWithGrid:(hdhGrid *)grid
 {
-  UIImage *image = [M2GridView gridImageWithGrid:grid];
+  UIImage *image = [hdhGridView gridImageWithGrid:grid];
   SKTexture *backgroundTexture = [SKTexture textureWithCGImage:image.CGImage];
   SKSpriteNode *board = [SKSpriteNode spriteNodeWithTexture:backgroundTexture];
   [board setScale:0.5];
@@ -97,11 +97,11 @@
   
   // We only accept horizontal or vertical swipes, but not diagonal ones.
   if (absX > absY * VALID_SWIPE_DIRECTION_THRESHOLD) {
-    translation.x < 0 ? [_manager moveToDirection:M2DirectionLeft] :
-                        [_manager moveToDirection:M2DirectionRight];
+    translation.x < 0 ? [_manager moveToDirection:hdhDirectionLeft] :
+                        [_manager moveToDirection:hdhDirectionRight];
   } else if (absY > absX * VALID_SWIPE_DIRECTION_THRESHOLD) {
-    translation.y < 0 ? [_manager moveToDirection:M2DirectionUp] :
-                        [_manager moveToDirection:M2DirectionDown];
+    translation.y < 0 ? [_manager moveToDirection:hdhDirectionUp] :
+                        [_manager moveToDirection:hdhDirectionDown];
   }
   
   _hasPendingSwipe = NO;

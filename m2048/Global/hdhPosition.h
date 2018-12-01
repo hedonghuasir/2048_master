@@ -1,22 +1,22 @@
 //
-//  M2Position.h
-//  m2048
+//  hdhPosition.h
+//  hdh048
 //
 //  Created by Danqing on 3/19/14.
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#ifndef m2048_M2Position_h
-#define m2048_M2Position_h
+#ifndef hdh048_hdhPosition_h
+#define hdh048_hdhPosition_h
 
 typedef struct Position {
   NSInteger x;
   NSInteger y;
-} M2Position;
+} hdhPosition;
 
-CG_INLINE M2Position M2PositionMake(NSInteger x, NSInteger y)
+CG_INLINE hdhPosition hdhPositionMake(NSInteger x, NSInteger y)
 {
-  M2Position position;
+  hdhPosition position;
   position.x = x; position.y = y;
   return position;
 }
