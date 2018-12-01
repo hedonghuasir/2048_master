@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Hdh View Controller-->
         <scene sceneID="CtS-rA-C9T">
             <objects>
                 <viewController id="LVB-YS-i5n" customClass="hdhViewController" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BEST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Xw-5I-xFm">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="最高分" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Xw-5I-xFm">
                                         <rect key="frame" x="16" y="0.0" width="42" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -53,7 +53,7 @@
                                 <rect key="frame" x="149" y="44" width="74" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRp-Wy-Hem">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="得分" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRp-Wy-Hem">
                                         <rect key="frame" x="16" y="0.0" width="43" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -80,7 +80,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Join the numbers to get 2048!" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="125" translatesAutoresizingMaskIntoConstraints="NO" id="r98-Zq-3Of">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="合并数字到达2048!" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="125" translatesAutoresizingMaskIntoConstraints="NO" id="r98-Zq-3Of">
                                 <rect key="frame" x="16" y="100" width="125" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -89,7 +89,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSt-5b-bvD">
                                 <rect key="frame" x="230" y="107" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Restart">
+                                <state key="normal" title="重来">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -100,7 +100,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8r1-lH-tEE">
                                 <rect key="frame" x="149" y="107" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Settings">
+                                <state key="normal" title="设置">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -112,7 +112,7 @@
                                 <rect key="frame" x="60" y="237" width="200" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Won!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqq-SU-fYe">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="胜利!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqq-SU-fYe">
                                         <rect key="frame" x="0.0" y="24" width="200" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -121,7 +121,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXD-8y-R8y">
                                         <rect key="frame" x="26" y="90" width="148" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="New Game">
+                                        <state key="normal" title="重来">
                                             <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -132,7 +132,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYR-fV-lVv">
                                         <rect key="frame" x="26" y="128" width="148" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Keep Playing">
+                                        <state key="normal" title="继续">
                                             <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -172,7 +172,7 @@
             </objects>
             <point key="canvasLocation" x="138" y="367"/>
         </scene>
-        <!--Settings-->
+        <!--设置-->
         <scene sceneID="6xC-WK-Uzx">
             <objects>
                 <viewController id="xld-lF-X62" customClass="hdhSettingsViewController" sceneMemberID="viewController">
@@ -222,8 +222,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Settings" id="4Ef-xt-w6t">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="iZP-nW-4x6">
+                    <navigationItem key="navigationItem" title="设置" id="4Ef-xt-w6t">
+                        <barButtonItem key="rightBarButtonItem" title="完成" id="iZP-nW-4x6">
                             <connections>
                                 <segue destination="bYg-ge-bIt" kind="unwind" unwindAction="done:" id="Rwq-3s-nhF"/>
                             </connections>
@@ -232,7 +232,6 @@
                     <connections>
                         <outlet property="_tableView" destination="del-Es-she" id="dKB-y4-W7Q"/>
                         <segue destination="evu-uo-nI6" kind="push" identifier="Settings Detail Segue" id="leh-9b-HbF"/>
-                        <segue destination="qYG-f3-Y88" kind="push" identifier="About Segue" id="Fqr-Ig-E8u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uVF-z9-YmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -240,44 +239,7 @@
             </objects>
             <point key="canvasLocation" x="964" y="367"/>
         </scene>
-        <!--About 2048-->
-        <scene sceneID="QMt-o9-L6P">
-            <objects>
-                <viewController id="qYG-f3-Y88" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="x9J-w9-iBO"/>
-                        <viewControllerLayoutGuide type="bottom" id="Zyd-d0-pYD"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CMP-ng-qzu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="2mP-lF-7EF">
-                                <rect key="frame" x="47.5" y="74" width="280" height="415.5"/>
-                                <string key="text">This game is largely based on the popular web-based game 2048, by Gabriele Cirulli. You can find the original game at http://git.io/2048. Please refer to its documentation to see its ancestors.
-
-Are you a developer? This game is an open source project. If you are interested in SpriteKit, the cool new addition to iOS 7, or in iOS development in general, check out its source code at http://github.com/ik/2048. Any contributions or forks are highly welcome, and I hope you find the source code useful in your own development work!
-
-Made with love (and without ads) by Danqing Liu. &lt;3
-Additional contributions by Scott Matthewman</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <color key="textColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="2mP-lF-7EF" secondAttribute="centerX" id="A0o-IR-FHu"/>
-                            <constraint firstItem="2mP-lF-7EF" firstAttribute="top" secondItem="CMP-ng-qzu" secondAttribute="top" constant="74" id="hnm-ZP-3e4"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="About 2048" id="zF5-Z2-jjH"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Iys-C4-Yzc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1449" y="548"/>
-        </scene>
-        <!--Settings Detail View Controller-->
+        <!--Hdh Settings Detail View Controller-->
         <scene sceneID="cGn-sm-IaZ">
             <objects>
                 <tableViewController id="evu-uo-nI6" customClass="hdhSettingsDetailViewController" sceneMemberID="viewController">

@@ -44,15 +44,14 @@
 
 - (void)commonInit
 {
-  _options = @[@"Game Type", @"Board Size", @"Theme"];
+  _options = @[@"游戏样式", @"格子数量", @"主题风格"];
   
-  _optionSelections = @[@[@"Powers of 2", @"Powers of 3", @"Fibonacci"],
+  _optionSelections = @[@[@"随机数字 2", @"随机数字 3", @"斐波拉契"],
                         @[@"3 x 3", @"4 x 4", @"5 x 5"],
-                        @[@"Default", @"Vibrant", @"Joyful"]];
-  
-  _optionsNotes = @[@"For Fibonacci games, a tile can be joined with a tile that is one level above or below it, but not to one equal to it. For Powers of 3, you need 3 consecutive tiles to be the same to trigger a merge!",
-                    @"The smaller the board is, the harder! For 5 x 5 board, two tiles will be added every round if you are playing Powers of 2.",
-                    @"Choose your favorite appearance and get your own feeling of 2048! More (and higher quality) themes are in the works so check back regularly!"];
+                        @[@"默认", @"鲜亮", @"冰纷欢舞"]];
+  _optionsNotes = @[@"对于Fibonacci游戏，可以使用高于或低于其一级的区块来连接区块，但不能与等于它的区域连接。 对于3的幂，您需要3个连续的区块才能触发合并!",
+                    @"格子越小越难! 对于5 x 5格，如果您正在玩随机数字2，则每轮将添加两个数字.",
+                    @"选择你最喜欢的外观，并获得自己2048年的感觉！ 更多（和更高质量）主题正在进行中，因此请定期查看!"];
 }
 
 
@@ -105,7 +104,7 @@
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
 {
   if (section) return @"";
-  return @"Please note: Changing the settings above would restart the game.";
+  return @"请注意:改变上面的设置将重新启动游戏.";
 }
 
 

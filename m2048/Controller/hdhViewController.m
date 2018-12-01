@@ -253,7 +253,7 @@
   
   _subtitle.textColor = [GSTATE buttonColor];
   _subtitle.font = [UIFont fontWithName:[GSTATE regularFontName] size:14];
-  _subtitle.text = [NSString stringWithFormat:@"Join the numbers to get to %ld!", target];
+  _subtitle.text = [NSString stringWithFormat:@"合并数字到达 %ld!", target];
   
   _overlay.message.font = [UIFont fontWithName:[GSTATE boldFontName] size:36];
   _overlay.keepPlaying.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:17];
@@ -317,10 +317,10 @@
   
   if (!won) {
     _overlay.keepPlaying.hidden = YES;
-    _overlay.message.text = @"Game Over";
+    _overlay.message.text = @"游戏结束";
   } else {
     _overlay.keepPlaying.hidden = NO;
-    _overlay.message.text = @"You Win!";
+    _overlay.message.text = @"胜利!";
   }
   
   // Fake the overlay background as a mask on the board.
