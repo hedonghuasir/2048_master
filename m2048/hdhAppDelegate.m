@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Danqing. All rights reserved.
 //
 
-#import "M2AppDelegate.h"
+#import "hdhAppDelegate.h"
 
-@implementation M2AppDelegate
+@implementation hdhAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

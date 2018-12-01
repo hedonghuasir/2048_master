@@ -13,7 +13,7 @@
 		2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC5B18D662CA00C920C1 /* SpriteKit.framework */; };
 		2443DC6218D662CA00C920C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2443DC6018D662CA00C920C1 /* InfoPlist.strings */; };
 		2443DC6418D662CA00C920C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC6318D662CA00C920C1 /* main.m */; };
-		2443DC6818D662CA00C920C1 /* M2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC6718D662CA00C920C1 /* M2AppDelegate.m */; };
+		2443DC6818D662CA00C920C1 /* hdhAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2443DC6718D662CA00C920C1 /* hdhAppDelegate.m */; };
 		2443DC6B18D662CA00C920C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2443DC6918D662CA00C920C1 /* Main.storyboard */; };
 		2443DC7518D662CA00C920C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2443DC7418D662CA00C920C1 /* Images.xcassets */; };
 		2443DC7C18D662CA00C920C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443DC7B18D662CA00C920C1 /* XCTest.framework */; };
@@ -56,8 +56,8 @@
 		2443DC6118D662CA00C920C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2443DC6318D662CA00C920C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2443DC6518D662CA00C920C1 /* m2048-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "m2048-Prefix.pch"; sourceTree = "<group>"; };
-		2443DC6618D662CA00C920C1 /* M2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M2AppDelegate.h; sourceTree = "<group>"; };
-		2443DC6718D662CA00C920C1 /* M2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M2AppDelegate.m; sourceTree = "<group>"; };
+		2443DC6618D662CA00C920C1 /* hdhAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hdhAppDelegate.h; sourceTree = "<group>"; };
+		2443DC6718D662CA00C920C1 /* hdhAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hdhAppDelegate.m; sourceTree = "<group>"; };
 		2443DC6A18D662CA00C920C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2443DC7418D662CA00C920C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2443DC7A18D662CA00C920C1 /* m2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = m2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,8 +153,8 @@
 		2443DC5D18D662CA00C920C1 /* m2048 */ = {
 			isa = PBXGroup;
 			children = (
-				2443DC6618D662CA00C920C1 /* M2AppDelegate.h */,
-				2443DC6718D662CA00C920C1 /* M2AppDelegate.m */,
+				2443DC6618D662CA00C920C1 /* hdhAppDelegate.h */,
+				2443DC6718D662CA00C920C1 /* hdhAppDelegate.m */,
 				2443DC6918D662CA00C920C1 /* Main.storyboard */,
 				2443DC9C18D6645800C920C1 /* Appearance */,
 				2443DC9D18D6645800C920C1 /* Controller */,
@@ -315,7 +315,7 @@
 				ORGANIZATIONNAME = Danqing;
 				TargetAttributes = {
 					2443DC5118D662CA00C920C1 = {
-						DevelopmentTeam = EWJAR4GTP4;
+						DevelopmentTeam = NKU4WU78DQ;
 					};
 					2443DC7918D662CA00C920C1 = {
 						TestTargetID = 2443DC5118D662CA00C920C1;
@@ -380,7 +380,7 @@
 				2443DCA318D6649500C920C1 /* M2Theme.m in Sources */,
 				24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */,
 				24C4516418DABABE0001FCFD /* M2GlobalState.m in Sources */,
-				2443DC6818D662CA00C920C1 /* M2AppDelegate.m in Sources */,
+				2443DC6818D662CA00C920C1 /* hdhAppDelegate.m in Sources */,
 				2443DC9B18D663FC00C920C1 /* M2GameManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,10 +507,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = NKU4WU78DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.m2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -523,10 +525,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = NKU4WU78DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.m2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;

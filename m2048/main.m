@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "M2AppDelegate.h"
+#import "hdhAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
   @autoreleasepool {
-      return UIApplicationMain(argc, argv, nil, NSStringFromClass([M2AppDelegate class]));
+      return UIApplicationMain(argc, argv, nil, NSStringFromClass([hdhAppDelegate class]));
   }
 }
