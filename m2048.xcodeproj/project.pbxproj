@@ -34,6 +34,25 @@
 		24C4517018DFF10B0001FCFD /* hdhScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* hdhScoreView.m */; };
 		24C4517318E140AE0001FCFD /* hdhSettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */; };
 		24C4518118E265390001FCFD /* hdhOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* hdhOverlay.m */; };
+		7B4EC84621B28D48008588B0 /* libAVOSCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83821B28C4E008588B0 /* libAVOSCloud.a */; };
+		7B4EC84721B28D48008588B0 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83C21B28C4E008588B0 /* libSDWebImage.a */; };
+		7B4EC84821B28D48008588B0 /* libSTCObfuscator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83E21B28C4E008588B0 /* libSTCObfuscator.a */; };
+		7B5F15C621B28564004709C1 /* jpush-extension-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */; };
+		7B5F15C721B28564004709C1 /* jpush-ios-3.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */; };
+		7B5F15C821B28564004709C1 /* jcore-ios-1.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C521B28564004709C1 /* jcore-ios-1.2.5.a */; };
+		7B5F15CA21B28578004709C1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C921B28578004709C1 /* CFNetwork.framework */; };
+		7B5F15CC21B28580004709C1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15CB21B28580004709C1 /* CoreFoundation.framework */; };
+		7B5F15CE21B28588004709C1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15CD21B28588004709C1 /* CoreTelephony.framework */; };
+		7B5F15D021B2858F004709C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15CF21B2858F004709C1 /* SystemConfiguration.framework */; };
+		7B5F15D221B285B1004709C1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15D121B285B1004709C1 /* Security.framework */; };
+		7B5F15D421B285B9004709C1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15D321B285B9004709C1 /* libz.tbd */; };
+		7B5F15D621B285C2004709C1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15D521B285C1004709C1 /* AdSupport.framework */; };
+		7B5F15D821B285CA004709C1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15D721B285CA004709C1 /* UserNotifications.framework */; };
+		7B5F15DA21B285D1004709C1 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15D921B285D1004709C1 /* libresolv.tbd */; };
+		7B5F15DE21B28B14004709C1 /* CommonAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F15DC21B28B14004709C1 /* CommonAlert.m */; };
+		7B5F15E221B28B28004709C1 /* LCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F15DF21B28B28004709C1 /* LCLoginViewController.m */; };
+		7B5F15E321B28B28004709C1 /* LCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F15E021B28B28004709C1 /* LCLoginViewController.xib */; };
+		964836D8C6778FF86493A262 /* libPods-m2048.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 871577A0A72F3B48134500AF /* libPods-m2048.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +62,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2443DC5118D662CA00C920C1;
 			remoteInfo = m2048;
+		};
+		7B4EC83721B28C4E008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 991786F20DB4D0B66AB782923CAA8699;
+			remoteInfo = AVOSCloud;
+		};
+		7B4EC83921B28C4E008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A452CBDD7DB5C5945D03FB1C2C5FC6EE;
+			remoteInfo = "Pods-m2048";
+		};
+		7B4EC83B21B28C4E008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1722A0445213519AC55CE5AA9E9415DF;
+			remoteInfo = SDWebImage;
+		};
+		7B4EC83D21B28C4E008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AFED67F079DC46EE17FF3EB6D7658959;
+			remoteInfo = STCObfuscator;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -92,6 +139,30 @@
 		24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhSettingsDetailViewController.m; sourceTree = "<group>"; };
 		24C4517F18E265390001FCFD /* hdhOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhOverlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* hdhOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhOverlay.m; sourceTree = "<group>"; };
+		71783BB97C5431CDDD2B4129 /* Pods-m2048.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2048.release.xcconfig"; path = "Pods/Target Support Files/Pods-m2048/Pods-m2048.release.xcconfig"; sourceTree = "<group>"; };
+		7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		7B4EC84A21B293F9008588B0 /* STCDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCDefination.h; sourceTree = SOURCE_ROOT; };
+		7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
+		7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
+		7B5F15C321B28564004709C1 /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
+		7B5F15C421B28564004709C1 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		7B5F15C521B28564004709C1 /* jcore-ios-1.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.2.5.a"; sourceTree = "<group>"; };
+		7B5F15C921B28578004709C1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7B5F15CB21B28580004709C1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7B5F15CD21B28588004709C1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7B5F15CF21B2858F004709C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7B5F15D121B285B1004709C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7B5F15D321B285B9004709C1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7B5F15D521B285C1004709C1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7B5F15D721B285CA004709C1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		7B5F15D921B285D1004709C1 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		7B5F15DC21B28B14004709C1 /* CommonAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlert.m; sourceTree = "<group>"; };
+		7B5F15DD21B28B14004709C1 /* CommonAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlert.h; sourceTree = "<group>"; };
+		7B5F15DF21B28B28004709C1 /* LCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLoginViewController.m; sourceTree = "<group>"; };
+		7B5F15E021B28B28004709C1 /* LCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCLoginViewController.xib; sourceTree = "<group>"; };
+		7B5F15E121B28B28004709C1 /* LCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLoginViewController.h; sourceTree = "<group>"; };
+		7E713C4566F791CDB475AC41 /* Pods-m2048.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2048.debug.xcconfig"; path = "Pods/Target Support Files/Pods-m2048/Pods-m2048.debug.xcconfig"; sourceTree = "<group>"; };
+		871577A0A72F3B48134500AF /* libPods-m2048.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m2048.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +170,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */,
+				7B4EC84621B28D48008588B0 /* libAVOSCloud.a in Frameworks */,
+				7B4EC84721B28D48008588B0 /* libSDWebImage.a in Frameworks */,
+				7B4EC84821B28D48008588B0 /* libSTCObfuscator.a in Frameworks */,
+				7B5F15DA21B285D1004709C1 /* libresolv.tbd in Frameworks */,
+				7B5F15D821B285CA004709C1 /* UserNotifications.framework in Frameworks */,
+				7B5F15D621B285C2004709C1 /* AdSupport.framework in Frameworks */,
+				7B5F15D421B285B9004709C1 /* libz.tbd in Frameworks */,
+				7B5F15D221B285B1004709C1 /* Security.framework in Frameworks */,
 				2443DC5A18D662CA00C920C1 /* UIKit.framework in Frameworks */,
-				2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */,
 				2443DC5618D662CA00C920C1 /* Foundation.framework in Frameworks */,
+				2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */,
+				7B5F15D021B2858F004709C1 /* SystemConfiguration.framework in Frameworks */,
+				7B5F15CE21B28588004709C1 /* CoreTelephony.framework in Frameworks */,
+				7B5F15CC21B28580004709C1 /* CoreFoundation.framework in Frameworks */,
+				7B5F15CA21B28578004709C1 /* CFNetwork.framework in Frameworks */,
+				7B5F15C721B28564004709C1 /* jpush-ios-3.1.1.a in Frameworks */,
+				7B5F15C621B28564004709C1 /* jpush-extension-ios-1.1.1.a in Frameworks */,
+				2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */,
+				7B5F15C821B28564004709C1 /* jcore-ios-1.2.5.a in Frameworks */,
+				964836D8C6778FF86493A262 /* libPods-m2048.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,10 +209,12 @@
 		2443DC4918D662CA00C920C1 = {
 			isa = PBXGroup;
 			children = (
+				7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */,
 				2443DC5D18D662CA00C920C1 /* m2048 */,
 				2443DC8118D662CA00C920C1 /* m2048Tests */,
 				2443DC5418D662CA00C920C1 /* Frameworks */,
 				2443DC5318D662CA00C920C1 /* Products */,
+				6E6687ED3F84B80FED1B72C4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,11 +230,21 @@
 		2443DC5418D662CA00C920C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B5F15D921B285D1004709C1 /* libresolv.tbd */,
+				7B5F15D721B285CA004709C1 /* UserNotifications.framework */,
+				7B5F15D521B285C1004709C1 /* AdSupport.framework */,
+				7B5F15D321B285B9004709C1 /* libz.tbd */,
+				7B5F15D121B285B1004709C1 /* Security.framework */,
+				7B5F15CF21B2858F004709C1 /* SystemConfiguration.framework */,
+				7B5F15CD21B28588004709C1 /* CoreTelephony.framework */,
+				7B5F15CB21B28580004709C1 /* CoreFoundation.framework */,
+				7B5F15C921B28578004709C1 /* CFNetwork.framework */,
 				2443DC5518D662CA00C920C1 /* Foundation.framework */,
 				2443DC5718D662CA00C920C1 /* CoreGraphics.framework */,
 				2443DC5918D662CA00C920C1 /* UIKit.framework */,
 				2443DC5B18D662CA00C920C1 /* SpriteKit.framework */,
 				2443DC7B18D662CA00C920C1 /* XCTest.framework */,
+				871577A0A72F3B48134500AF /* libPods-m2048.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +252,9 @@
 		2443DC5D18D662CA00C920C1 /* m2048 */ = {
 			isa = PBXGroup;
 			children = (
+				7B4EC84A21B293F9008588B0 /* STCDefination.h */,
+				7B5F15DB21B28B14004709C1 /* common */,
+				7B5F15C021B28564004709C1 /* Lib */,
 				2443DC6618D662CA00C920C1 /* hdhAppDelegate.h */,
 				2443DC6718D662CA00C920C1 /* hdhAppDelegate.m */,
 				2443DC6918D662CA00C920C1 /* Main.storyboard */,
@@ -256,6 +358,9 @@
 		24C4516518DD64630001FCFD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7B5F15E121B28B28004709C1 /* LCLoginViewController.h */,
+				7B5F15DF21B28B28004709C1 /* LCLoginViewController.m */,
+				7B5F15E021B28B28004709C1 /* LCLoginViewController.xib */,
 				24C4516618DD64A90001FCFD /* hdhGridView.h */,
 				24C4516718DD64A90001FCFD /* hdhGridView.m */,
 				24C4516E18DFF10B0001FCFD /* hdhScoreView.h */,
@@ -266,6 +371,47 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6E6687ED3F84B80FED1B72C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E713C4566F791CDB475AC41 /* Pods-m2048.debug.xcconfig */,
+				71783BB97C5431CDDD2B4129 /* Pods-m2048.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B4EC83121B28C4D008588B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EC83821B28C4E008588B0 /* libAVOSCloud.a */,
+				7B4EC83A21B28C4E008588B0 /* libPods-m2048.a */,
+				7B4EC83C21B28C4E008588B0 /* libSDWebImage.a */,
+				7B4EC83E21B28C4E008588B0 /* libSTCObfuscator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B5F15C021B28564004709C1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */,
+				7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */,
+				7B5F15C321B28564004709C1 /* JPushNotificationExtensionService.h */,
+				7B5F15C421B28564004709C1 /* JPUSHService.h */,
+				7B5F15C521B28564004709C1 /* jcore-ios-1.2.5.a */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7B5F15DB21B28B14004709C1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F15DC21B28B14004709C1 /* CommonAlert.m */,
+				7B5F15DD21B28B14004709C1 /* CommonAlert.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -273,9 +419,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2443DC8B18D662CA00C920C1 /* Build configuration list for PBXNativeTarget "m2048" */;
 			buildPhases = (
+				B9C2AC54A899637327AA6F73 /* [CP] Check Pods Manifest.lock */,
 				2443DC4E18D662CA00C920C1 /* Sources */,
 				2443DC4F18D662CA00C920C1 /* Frameworks */,
 				2443DC5018D662CA00C920C1 /* Resources */,
+				AB7F776189E283AE1F2262B5 /* [CP] Copy Pods Resources */,
+				7B4EC84921B28D92008588B0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -333,6 +482,12 @@
 			mainGroup = 2443DC4918D662CA00C920C1;
 			productRefGroup = 2443DC5318D662CA00C920C1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7B4EC83121B28C4D008588B0 /* Products */;
+					ProjectRef = 7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2443DC5118D662CA00C920C1 /* m2048 */,
@@ -341,12 +496,44 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7B4EC83821B28C4E008588B0 /* libAVOSCloud.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAVOSCloud.a;
+			remoteRef = 7B4EC83721B28C4E008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC83A21B28C4E008588B0 /* libPods-m2048.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-m2048.a";
+			remoteRef = 7B4EC83921B28C4E008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC83C21B28C4E008588B0 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 7B4EC83B21B28C4E008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC83E21B28C4E008588B0 /* libSTCObfuscator.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSTCObfuscator.a;
+			remoteRef = 7B4EC83D21B28C4E008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		2443DC5018D662CA00C920C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2443DC6218D662CA00C920C1 /* InfoPlist.strings in Resources */,
+				7B5F15E321B28B28004709C1 /* LCLoginViewController.xib in Resources */,
 				2443DC7518D662CA00C920C1 /* Images.xcassets in Resources */,
 				2443DC6B18D662CA00C920C1 /* Main.storyboard in Resources */,
 			);
@@ -362,6 +549,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B4EC84921B28D92008588B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dir=${SRCROOT}\nfile_list=`ls -R $dir 2> /dev/null | grep -v '^$'`\nfor file_name in $file_list\ndo\ntemp=`echo $file_name | sed 's/:.*$//g'`\nif [ \"$file_name\" != \"$temp\" ]; then\ncur_dir=$temp\nelse\nif [ ${file_name##*.} = a ]; then\n    find -P $dir -name $file_name > tmp.txt\n    var=$(cat tmp.txt)\n    nm $var > ${file_name}.txt\n    rm tmp.txt\n    fi\n    fi\n    done";
+		};
+		AB7F776189E283AE1F2262B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-m2048/Pods-m2048-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-m2048/Pods-m2048-resources.sh\"\n\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C2AC54A899637327AA6F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-m2048-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2443DC4E18D662CA00C920C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -371,11 +610,13 @@
 				2443DC6418D662CA00C920C1 /* main.m in Sources */,
 				24C4515B18D6DC4A0001FCFD /* hdhCell.m in Sources */,
 				24C4516818DD64A90001FCFD /* hdhGridView.m in Sources */,
+				7B5F15E221B28B28004709C1 /* LCLoginViewController.m in Sources */,
 				2443DC9A18D663FC00C920C1 /* hdhScene.m in Sources */,
 				24C4515E18D6DC740001FCFD /* hdhGrid.m in Sources */,
 				24C4518118E265390001FCFD /* hdhOverlay.m in Sources */,
 				2443DCAF18D6C18400C920C1 /* hdhTile.m in Sources */,
 				2443DCA018D6647000C920C1 /* hdhSettingsViewController.m in Sources */,
+				7B5F15DE21B28B14004709C1 /* CommonAlert.m in Sources */,
 				24C4517018DFF10B0001FCFD /* hdhScoreView.m in Sources */,
 				2443DCA318D6649500C920C1 /* hdhTheme.m in Sources */,
 				24C4517318E140AE0001FCFD /* hdhSettingsDetailViewController.m in Sources */,
@@ -503,6 +744,7 @@
 		};
 		2443DC8C18D662CA00C920C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E713C4566F791CDB475AC41 /* Pods-m2048.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -510,8 +752,23 @@
 				DEVELOPMENT_TEAM = NKU4WU78DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt",
+					"\nLINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt",
+					"\nLINKMAP_FILE=$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt",
+					"ROOT_PATH=\"${SRCROOT}\"",
+				);
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/m2048/Lib",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AVOSCloud\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.m2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -521,6 +778,7 @@
 		};
 		2443DC8D18D662CA00C920C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71783BB97C5431CDDD2B4129 /* Pods-m2048.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -530,6 +788,11 @@
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/m2048/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.m2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;

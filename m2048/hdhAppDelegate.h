@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+static NSString *appKey = @"7dad6240ca77d66aa46afae9";
+static NSString *channel = @"App Store";
+static BOOL isProduction = NO;
 @interface hdhAppDelegate : UIResponder <UIApplicationDelegate>
-
 @property (strong, nonatomic) UIWindow *window;
+
+@property(nonatomic,weak)IBOutlet UIImageView * _splashImageView;
 
 @end
