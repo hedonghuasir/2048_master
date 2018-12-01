@@ -91,6 +91,41 @@
 			remoteGlobalIDString = AFED67F079DC46EE17FF3EB6D7658959;
 			remoteInfo = STCObfuscator;
 		};
+		7B4EC85821B29806008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D97CBEC2147E22A100BCB5FB;
+			remoteInfo = "protobuf-full-ios";
+		};
+		7B4EC85A21B29806008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D932DE2B1504690900476829;
+			remoteInfo = "protobuf-lite-ios";
+		};
+		7B4EC85C21B29806008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9EE157C16A8F82C003C65F9;
+			remoteInfo = "protobuf-full-mac";
+		};
+		7B4EC85E21B29806008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9EE14F516A8F81B003C65F9;
+			remoteInfo = "protobuf-lite-mac";
+		};
+		7B4EC86021B29806008588B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9656F5E16D7B43600F882CF;
+			remoteInfo = protoc;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +177,7 @@
 		71783BB97C5431CDDD2B4129 /* Pods-m2048.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2048.release.xcconfig"; path = "Pods/Target Support Files/Pods-m2048/Pods-m2048.release.xcconfig"; sourceTree = "<group>"; };
 		7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		7B4EC84A21B293F9008588B0 /* STCDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCDefination.h; sourceTree = SOURCE_ROOT; };
+		7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = protobuf.xcodeproj; path = m2048/libs/protobuf/xcodeproject/protobuf.xcodeproj; sourceTree = "<group>"; };
 		7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
 		7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
 		7B5F15C321B28564004709C1 /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
@@ -209,6 +245,7 @@
 		2443DC4918D662CA00C920C1 = {
 			isa = PBXGroup;
 			children = (
+				7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */,
 				7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */,
 				2443DC5D18D662CA00C920C1 /* m2048 */,
 				2443DC8118D662CA00C920C1 /* m2048Tests */,
@@ -391,6 +428,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7B4EC84D21B29806008588B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EC85921B29806008588B0 /* libprotobuf-full-ios.a */,
+				7B4EC85B21B29806008588B0 /* libprotobuf-lite-ios.a */,
+				7B4EC85D21B29806008588B0 /* libprotobuf-full-mac.a */,
+				7B4EC85F21B29806008588B0 /* libprotobuf-lite-mac.a */,
+				7B4EC86121B29806008588B0 /* protoc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7B5F15C021B28564004709C1 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -487,6 +536,10 @@
 					ProductGroup = 7B4EC83121B28C4D008588B0 /* Products */;
 					ProjectRef = 7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */;
 				},
+				{
+					ProductGroup = 7B4EC84D21B29806008588B0 /* Products */;
+					ProjectRef = 7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -523,6 +576,41 @@
 			fileType = archive.ar;
 			path = libSTCObfuscator.a;
 			remoteRef = 7B4EC83D21B28C4E008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC85921B29806008588B0 /* libprotobuf-full-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-full-ios.a";
+			remoteRef = 7B4EC85821B29806008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC85B21B29806008588B0 /* libprotobuf-lite-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-lite-ios.a";
+			remoteRef = 7B4EC85A21B29806008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC85D21B29806008588B0 /* libprotobuf-full-mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-full-mac.a";
+			remoteRef = 7B4EC85C21B29806008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC85F21B29806008588B0 /* libprotobuf-lite-mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprotobuf-lite-mac.a";
+			remoteRef = 7B4EC85E21B29806008588B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7B4EC86121B29806008588B0 /* protoc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = protoc;
+			remoteRef = 7B4EC86021B29806008588B0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
