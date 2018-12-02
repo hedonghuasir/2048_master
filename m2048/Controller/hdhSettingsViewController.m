@@ -59,6 +59,7 @@
 {
   [super viewDidLoad];
   self.navigationController.navigationBar.tintColor = [GSTATE scoreBoardColor];
+  [self.navigationController.navigationBar setBarTintColor:[UIColor darkGrayColor]];
   // Do any additional setup after loading the view.
 }
 
@@ -79,7 +80,7 @@
 {
   if ([segue.identifier isEqualToString:@"Settings Detail Segue"]) {
     hdhSettingsDetailViewController *sdvc = segue.destinationViewController;
-    
+//    sdvc.
     NSInteger index = [_tableView indexPathForSelectedRow].row;
     sdvc.title = [_options objectAtIndex:index];
     sdvc.options = [_optionSelections objectAtIndex:index];

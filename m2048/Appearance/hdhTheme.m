@@ -87,7 +87,7 @@
 
 + (UIColor *)buttonColor
 {
-  return RGB(119, 110, 101);
+  return RGB(255, 255, 255);
 }
 
 

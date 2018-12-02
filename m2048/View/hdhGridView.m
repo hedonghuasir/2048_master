@@ -33,7 +33,8 @@
 + (UIImage *)gridImageWithGrid:(hdhGrid *)grid
 {
   UIView *backgroundView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-  backgroundView.backgroundColor = [GSTATE backgroundColor];
+//  backgroundView.backgroundColor = [GSTATE backgroundColor];
+    backgroundView.backgroundColor =  [UIColor darkGrayColor];
   
   hdhGridView *view = [[hdhGridView alloc] init];
   [backgroundView addSubview:view];

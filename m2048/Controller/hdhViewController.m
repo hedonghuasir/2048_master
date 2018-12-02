@@ -61,7 +61,7 @@
   // Create and configure the scene.
   hdhScene * scene = [hdhScene sceneWithSize:skView.bounds.size];
   scene.scaleMode = SKSceneScaleModeAspectFill;
-//
+
 //  // Present the scene.
   [skView presentScene:scene];
   [self updateScore:0];
@@ -254,13 +254,13 @@
   _subtitle.font = [UIFont fontWithName:[GSTATE regularFontName] size:14];
   _subtitle.text = [NSString stringWithFormat:@"合并数字到达 %ld!", target];
 
-  _overlay.message.font = [UIFont fontWithName:[GSTATE boldFontName] size:36];
-  _overlay.keepPlaying.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:17];
-  _overlay.restartGame.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:17];
+//  _overlay.message.font = [UIFont fontWithName:[GSTATE boldFontName] size:36];
+//  _overlay.keepPlaying.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:17];
+//  _overlay.restartGame.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:17];
 
-  _overlay.message.textColor = [GSTATE buttonColor];
-  [_overlay.keepPlaying setTitleColor:[GSTATE buttonColor] forState:UIControlStateNormal];
-  [_overlay.restartGame setTitleColor:[GSTATE buttonColor] forState:UIControlStateNormal];
+//  _overlay.message.textColor = [GSTATE buttonColor];
+//  [_overlay.keepPlaying setTitleColor:[GSTATE buttonColor] forState:UIControlStateNormal];
+//  [_overlay.restartGame setTitleColor:[GSTATE buttonColor] forState:UIControlStateNormal];
 }
 
 - (void)updateScore:(NSInteger)score

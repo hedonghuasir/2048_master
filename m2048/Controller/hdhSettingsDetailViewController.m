@@ -26,6 +26,7 @@
 {
   [super viewDidLoad];
   self.navigationController.navigationBar.tintColor = [GSTATE scoreBoardColor];
+  [self.navigationController.navigationBar setBarTintColor:[UIColor darkGrayColor]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,7 +58,7 @@
   
   cell.textLabel.text = [self.options objectAtIndex:indexPath.row];
   cell.accessoryType = ([Settings integerForKey:self.title] == indexPath.row) ?
-    UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
+  UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
   cell.tintColor = [GSTATE scoreBoardColor];
   
   return cell;
