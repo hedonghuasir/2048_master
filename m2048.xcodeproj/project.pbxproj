@@ -34,6 +34,8 @@
 		24C4517018DFF10B0001FCFD /* hdhScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* hdhScoreView.m */; };
 		24C4517318E140AE0001FCFD /* hdhSettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */; };
 		24C4518118E265390001FCFD /* hdhOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* hdhOverlay.m */; };
+		313988A221B3BE6D00B78602 /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 313988A021B3BE6D00B78602 /* loading1.png */; };
+		313988A321B3BE6D00B78602 /* shuimo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 313988A121B3BE6D00B78602 /* shuimo2.png */; };
 		7B4EC84621B28D48008588B0 /* libAVOSCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83821B28C4E008588B0 /* libAVOSCloud.a */; };
 		7B4EC84721B28D48008588B0 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83C21B28C4E008588B0 /* libSDWebImage.a */; };
 		7B4EC84821B28D48008588B0 /* libSTCObfuscator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83E21B28C4E008588B0 /* libSTCObfuscator.a */; };
@@ -174,6 +176,8 @@
 		24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhSettingsDetailViewController.m; sourceTree = "<group>"; };
 		24C4517F18E265390001FCFD /* hdhOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhOverlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* hdhOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhOverlay.m; sourceTree = "<group>"; };
+		313988A021B3BE6D00B78602 /* loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading1.png; sourceTree = "<group>"; };
+		313988A121B3BE6D00B78602 /* shuimo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuimo2.png; sourceTree = "<group>"; };
 		71783BB97C5431CDDD2B4129 /* Pods-m2048.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2048.release.xcconfig"; path = "Pods/Target Support Files/Pods-m2048/Pods-m2048.release.xcconfig"; sourceTree = "<group>"; };
 		7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		7B4EC84A21B293F9008588B0 /* STCDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCDefination.h; sourceTree = SOURCE_ROOT; };
@@ -289,6 +293,7 @@
 		2443DC5D18D662CA00C920C1 /* m2048 */ = {
 			isa = PBXGroup;
 			children = (
+				3139889F21B3BE6D00B78602 /* Resources */,
 				7B4EC84A21B293F9008588B0 /* STCDefination.h */,
 				7B5F15DB21B28B14004709C1 /* common */,
 				7B5F15C021B28564004709C1 /* Lib */,
@@ -408,6 +413,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3139889F21B3BE6D00B78602 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				313988A021B3BE6D00B78602 /* loading1.png */,
+				313988A121B3BE6D00B78602 /* shuimo2.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6E6687ED3F84B80FED1B72C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +528,7 @@
 				TargetAttributes = {
 					2443DC5118D662CA00C920C1 = {
 						DevelopmentTeam = NKU4WU78DQ;
+						ProvisioningStyle = Automatic;
 					};
 					2443DC7918D662CA00C920C1 = {
 						TestTargetID = 2443DC5118D662CA00C920C1;
@@ -622,8 +637,10 @@
 			files = (
 				2443DC6218D662CA00C920C1 /* InfoPlist.strings in Resources */,
 				7B5F15E321B28B28004709C1 /* LCLoginViewController.xib in Resources */,
+				313988A221B3BE6D00B78602 /* loading1.png in Resources */,
 				2443DC7518D662CA00C920C1 /* Images.xcassets in Resources */,
 				2443DC6B18D662CA00C920C1 /* Main.storyboard in Resources */,
+				313988A321B3BE6D00B78602 /* shuimo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +854,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NKU4WU78DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
@@ -871,6 +889,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NKU4WU78DQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";

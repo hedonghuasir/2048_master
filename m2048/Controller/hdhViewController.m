@@ -19,6 +19,7 @@
 
 @interface hdhViewController ()
 /** 定时器(这里不用带*，因为dispatch_source_t就是个类，内部已经包含了*) */
+@property (weak, nonatomic) IBOutlet UIImageView *loading;
 @property (nonatomic, strong) dispatch_source_t timer;
 @end
 
@@ -30,9 +31,9 @@
   IBOutlet UILabel *_subtitle;
   IBOutlet hdhScoreView *_scoreView;
   IBOutlet hdhScoreView *_bestView;
-  
+
   hdhScene *_scene;
-  
+
   IBOutlet hdhOverlay *_overlay;
   IBOutlet UIImageView *_overlayBackground;
 }
@@ -54,22 +55,22 @@
   _overlay.hidden = YES;
   _overlayBackground.hidden = YES;
   
-  // Configure the view.
+//   Configure the view.
   SKView * skView = (SKView *)self.view;
   
   // Create and configure the scene.
   hdhScene * scene = [hdhScene sceneWithSize:skView.bounds.size];
   scene.scaleMode = SKSceneScaleModeAspectFill;
-  
-  // Present the scene.
+//
+//  // Present the scene.
   [skView presentScene:scene];
   [self updateScore:0];
   [scene startNewGame];
-  
+//
   _scene = scene;
   _scene.controller = self;
-    [self gcdTimerTest];
-    //    [self get1];
+ [self gcdTimerTest];
+// [self get1];
 //        AVObject *todoFolder = [[AVObject alloc] initWithClassName:@"JumpSwitch"];// 构建对象
 //        [todoFolder setObject:@"0" forKey:@"com_hdhsir_2048_02"];// 设置名称
 //        [todoFolder saveInBackground];// 保存到云端
@@ -183,7 +184,7 @@
 -(void)gcdTimerTest
 {
     // 设定定时器延迟3秒开始执行
-    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC));
+    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC));
     // 每隔2秒执行一次
     uint64_t interval = (uint64_t)(2.0 * NSEC_PER_SEC);
     dispatch_source_set_timer(self.timer, start, interval, 0);
@@ -194,17 +195,15 @@
         NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
             //需要执行的方法
             if(is_first_loading){
-//                self.first_loading.hidden = YES;
                 is_first_loading = 0;
-            }else{
-//                self.wzq_loading.hidden = YES;
-                dispatch_cancel(self.timer);
                 NSString *currentUsername = [AVUser currentUser].username;// 当前用户名
                 if(currentUsername == nil){
-                    //                    [UIApplication sharedApplication].keyWindow.rootViewController = [[LCLoginViewController alloc]init];
                     LCLoginViewController * controller=[[LCLoginViewController alloc]init];
                     [self presentViewController:controller animated:NO completion:nil];
                 }
+            }else{
+                self.loading.hidden = YES;
+                dispatch_cancel(self.timer);
             }
         }];
         [mainQueue addOperation:operation];
@@ -230,17 +229,17 @@
 {
   [_scoreView updateAppearance];
   [_bestView updateAppearance];
-  
+
   _restartButton.backgroundColor = [GSTATE buttonColor];
   _restartButton.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:14];
-  
+
   _settingsButton.backgroundColor = [GSTATE buttonColor];
   _settingsButton.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:14];
-  
+
   _targetScore.textColor = [GSTATE buttonColor];
-  
+
   long target = [GSTATE valueForLevel:GSTATE.winningLevel];
-  
+
   if (target > 100000) {
     _targetScore.font = [UIFont fontWithName:[GSTATE boldFontName] size:34];
   } else if (target < 10000) {
@@ -248,22 +247,21 @@
   } else {
     _targetScore.font = [UIFont fontWithName:[GSTATE boldFontName] size:40];
   }
-  
+
   _targetScore.text = [NSString stringWithFormat:@"%ld", target];
-  
+
   _subtitle.textColor = [GSTATE buttonColor];
   _subtitle.font = [UIFont fontWithName:[GSTATE regularFontName] size:14];
   _subtitle.text = [NSString stringWithFormat:@"合并数字到达 %ld!", target];
-  
+
   _overlay.message.font = [UIFont fontWithName:[GSTATE boldFontName] size:36];
   _overlay.keepPlaying.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:17];
   _overlay.restartGame.titleLabel.font = [UIFont fontWithName:[GSTATE boldFontName] size:17];
-  
+
   _overlay.message.textColor = [GSTATE buttonColor];
   [_overlay.keepPlaying setTitleColor:[GSTATE buttonColor] forState:UIControlStateNormal];
   [_overlay.restartGame setTitleColor:[GSTATE buttonColor] forState:UIControlStateNormal];
 }
-
 
 - (void)updateScore:(NSInteger)score
 {
@@ -314,7 +312,7 @@
   _overlay.alpha = 0;
   _overlayBackground.hidden = NO;
   _overlayBackground.alpha = 0;
-  
+
   if (!won) {
     _overlay.keepPlaying.hidden = YES;
     _overlay.message.text = @"游戏结束";
@@ -322,15 +320,15 @@
     _overlay.keepPlaying.hidden = NO;
     _overlay.message.text = @"胜利!";
   }
-  
+
   // Fake the overlay background as a mask on the board.
   _overlayBackground.image = [hdhGridView gridImageWithOverlay];
-  
+
   // Center the overlay in the board.
   CGFloat verticalOffset = [[UIScreen mainScreen] bounds].size.height - GSTATE.verticalOffset;
   NSInteger side = GSTATE.dimension * (GSTATE.tileSize + GSTATE.borderWidth) + GSTATE.borderWidth;
   _overlay.center = CGPointMake(GSTATE.horizontalOffset + side / 2, verticalOffset - side / 2);
-  
+
   [UIView animateWithDuration:0.5 delay:1.5 options:UIViewAnimationOptionCurveEaseInOut animations:^{
     _overlay.alpha = 1;
     _overlayBackground.alpha = 1;
