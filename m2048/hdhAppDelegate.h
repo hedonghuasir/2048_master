@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-static NSString *appKey = @"7dad6240ca77d66aa46afae9";
+static NSString *appKey = @"b26a64ddb4158b611ef996fb";
 static NSString *channel = @"App Store";
 static BOOL isProduction = NO;
 @interface hdhAppDelegate : UIResponder <UIApplicationDelegate>
