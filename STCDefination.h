@@ -1,149 +1,157 @@
 
-//warning hits hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
+//warning hits hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
 #define hits hits 
 #define _hits _hits 
 #define setHits setHits 
-//warning deviceProfile hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
+//warning deviceProfile hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
 #define deviceProfile deviceProfile 
 #define _deviceProfile _deviceProfile 
 #define setDeviceProfile setDeviceProfile 
-//warning LoginBtnClick hardcode in /Users/hdh/code/resource_code/2048_master/m2048/View/LCLoginViewController.xib
+//warning LoginBtnClick hardcode in /Users/hoolai/Documents/code/2048_master/m2048/View/LCLoginViewController.xib
 #define LoginBtnClick LoginBtnClick 
-//warning mobilePhoneNumber hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
+//warning mobilePhoneNumber hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
 #define mobilePhoneNumber mobilePhoneNumber 
-//warning updatedAt hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning updatedAt hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define updatedAt updatedAt 
 #define _updatedAt _updatedAt 
 #define setUpdatedAt setUpdatedAt 
-//warning deviceToken hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
+//warning deviceToken hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
 #define deviceToken deviceToken 
 #define _deviceToken _deviceToken 
 #define setDeviceToken setDeviceToken 
-//warning SignUpBtnClick hardcode in /Users/hdh/code/resource_code/2048_master/m2048/View/LCLoginViewController.xib
+//warning SignUpBtnClick hardcode in /Users/hoolai/Documents/code/2048_master/m2048/View/LCLoginViewController.xib
 #define SignUpBtnClick SignUpBtnClick 
-//warning apnsTopic hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
+//warning apnsTopic hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
 #define apnsTopic apnsTopic 
 #define _apnsTopic _apnsTopic 
 #define setApnsTopic setApnsTopic 
-//warning hdhSettingsDetailViewController hardcode in /Users/hdh/code/resource_code/2048_master/m2048/Base.lproj/Main.storyboard
-#define hdhSettingsDetailViewController hdhSettingsDetailViewController 
-//warning requestLoginSmsCode hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning include hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
+#define include include 
+#define _include _include 
+#define setInclude setInclude 
+//warning requestLoginSmsCode hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define requestLoginSmsCode requestLoginSmsCode 
-//warning requestEmailVerify hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning requestEmailVerify hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define requestEmailVerify requestEmailVerify 
-//warning hdhScoreView hardcode in /Users/hdh/code/resource_code/2048_master/m2048/Base.lproj/Main.storyboard
+//warning hdhSettingsDetailViewController hardcode in /Users/hoolai/Documents/code/2048_master/m2048/Base.lproj/Main.storyboard
+#define hdhSettingsDetailViewController hdhSettingsDetailViewController 
+//warning hdhScoreView hardcode in /Users/hoolai/Documents/code/2048_master/m2048/Base.lproj/Main.storyboard
 #define hdhScoreView hdhScoreView 
-//warning inSetter hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
-#define inSetter inSetter 
-#define _inSetter _inSetter 
-#define setInSetter setInSetter 
-//warning estimatedData hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning estimatedData hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define estimatedData estimatedData 
 #define _estimatedData _estimatedData 
 #define setEstimatedData setEstimatedData 
-//warning isPointer hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning inSetter hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+#define inSetter inSetter 
+#define _inSetter _inSetter 
+#define setInSetter setInSetter 
+//warning hdhViewController hardcode in /Users/hoolai/Documents/code/2048_master/m2048/Base.lproj/Main.storyboard
+#define hdhViewController hdhViewController 
+//warning isPointer hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define isPointer isPointer 
 #define _isPointer _isPointer 
 #define setIsPointer setIsPointer 
-//warning hdhViewController hardcode in /Users/hdh/code/resource_code/2048_master/m2048/Base.lproj/Main.storyboard
-#define hdhViewController hdhViewController 
-//warning requestMobilePhoneVerify hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning requestMobilePhoneVerify hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define requestMobilePhoneVerify requestMobilePhoneVerify 
-//warning acc hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalyticsUtils.h
+//warning acc hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Analytics/AVAnalyticsUtils.h
 #define acc acc 
 #define _acc _acc 
 #define setAcc setAcc 
-//warning LCLoginViewController hardcode in /Users/hdh/code/resource_code/2048_master/m2048/View/LCLoginViewController.xib
+//warning objectId hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
+#define objectId objectId 
+#define _objectId _objectId 
+#define setObjectId setObjectId 
+//warning LCLoginViewController hardcode in /Users/hoolai/Documents/code/2048_master/m2048/View/LCLoginViewController.xib
 #define LCLoginViewController LCLoginViewController 
-//warning relationData hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning relationData hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define relationData relationData 
 #define _relationData _relationData 
 #define setRelationData setRelationData 
-//warning inboxType hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
+//warning inboxType hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
 #define inboxType inboxType 
 #define _inboxType _inboxType 
 #define setInboxType setInboxType 
-//warning keepPlaying hardcode in /Users/hdh/code/resource_code/2048_master/m2048/Base.lproj/Main.storyboard
+//warning keepPlaying hardcode in /Users/hoolai/Documents/code/2048_master/m2048/Base.lproj/Main.storyboard
 #define keepPlaying keepPlaying 
 #define _keepPlaying _keepPlaying 
 #define setKeepPlaying setKeepPlaying 
-//warning highlights hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
+//warning highlights hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Search/AVSearchQuery.m
 #define highlights highlights 
 #define _highlights _highlights 
 #define setHighlights setHighlights 
-//warning networkReachabilityStatus hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCNetworkReachabilityManager.m
+//warning networkReachabilityStatus hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCNetworkReachabilityManager.m
 #define networkReachabilityStatus networkReachabilityStatus 
 #define _networkReachabilityStatus _networkReachabilityStatus 
 #define setNetworkReachabilityStatus setNetworkReachabilityStatus 
-//warning op hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
+//warning op hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
 #define op op 
-//warning createdAt hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning createdAt hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define createdAt createdAt 
 #define _createdAt _createdAt 
 #define setCreatedAt setCreatedAt 
-//warning hasDataForCloud hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning hasDataForCloud hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define hasDataForCloud hasDataForCloud 
 #define _hasDataForCloud _hasDataForCloud 
 #define setHasDataForCloud setHasDataForCloud 
-//warning hasDataForInitial hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning hasDataForInitial hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define hasDataForInitial hasDataForInitial 
 #define _hasDataForInitial _hasDataForInitial 
 #define setHasDataForInitial setHasDataForInitial 
-//warning localData hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning localData hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define localData localData 
 #define _localData _localData 
 #define setLocalData setLocalData 
-//warning IDD hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
+//warning IDD hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVOSCloud.m
 #define IDD IDD 
-//warning apnsTeamId hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
+//warning apnsTeamId hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Push/AVInstallation.m
 #define apnsTeamId apnsTeamId 
 #define _apnsTeamId _apnsTeamId 
 #define setApnsTeamId setApnsTeamId 
-//warning failOnNotExist hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
+//warning failOnNotExist hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/User/AVUser.m
 #define failOnNotExist failOnNotExist 
 #define _failOnNotExist _failOnNotExist 
 #define setFailOnNotExist setFailOnNotExist 
-//warning hdhSettingsViewController hardcode in /Users/hdh/code/resource_code/2048_master/m2048/Base.lproj/Main.storyboard
+//warning hdhSettingsViewController hardcode in /Users/hoolai/Documents/code/2048_master/m2048/Base.lproj/Main.storyboard
 #define hdhSettingsViewController hdhSettingsViewController 
-//warning ACL hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject.m
+//warning ACL hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObject.m
 #define ACL ACL 
 #define _ACL _ACL 
 #define setACL setACL 
-//warning restartGame hardcode in /Users/hdh/code/resource_code/2048_master/m2048/Base.lproj/Main.storyboard
+//warning restartGame hardcode in /Users/hoolai/Documents/code/2048_master/m2048/Base.lproj/Main.storyboard
 #define restartGame restartGame 
 #define _restartGame _restartGame 
 #define setRestartGame setRestartGame 
-//warning passwordTextField hardcode in /Users/hdh/code/resource_code/2048_master/m2048/View/LCLoginViewController.xib
+//warning passwordTextField hardcode in /Users/hoolai/Documents/code/2048_master/m2048/View/LCLoginViewController.xib
 #define passwordTextField passwordTextField 
 #define _passwordTextField _passwordTextField 
 #define setPasswordTextField setPasswordTextField 
-//warning pinnedCertificates hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCSecurityPolicy.m
+//warning pinnedCertificates hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCNetworking/LCSecurityPolicy.m
 #define pinnedCertificates pinnedCertificates 
 #define _pinnedCertificates _pinnedCertificates 
 #define setPinnedCertificates setPinnedCertificates 
-//warning pvalues hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
+//warning pvalues hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Query/AVQuery.m
 #define pvalues pvalues 
-//warning smsCode hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
+//warning smsCode hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
 #define smsCode smsCode 
-//warning LCDatabase hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabase.m
+//warning LCDatabase hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabase.m
 #define LCDatabase LCDatabase 
-//warning installationId hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
+//warning installationId hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/AVGlobal.h
 #define installationId installationId 
 #define _installationId _installationId 
 #define setInstallationId setInstallationId 
-//warning userNameTextField hardcode in /Users/hdh/code/resource_code/2048_master/m2048/View/LCLoginViewController.xib
+//warning userNameTextField hardcode in /Users/hoolai/Documents/code/2048_master/m2048/View/LCLoginViewController.xib
 #define userNameTextField userNameTextField 
 #define _userNameTextField _userNameTextField 
 #define setUserNameTextField setUserNameTextField 
-//warning maxId hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
+//warning maxId hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
 #define maxId maxId 
 #define _maxId _maxId 
 #define setMaxId setMaxId 
-//warning sinceId hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
+//warning sinceId hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Status/AVStatus.m
 #define sinceId sinceId 
 #define _sinceId _sinceId 
 #define setSinceId setSinceId 
-//warning fetchWhenSave hardcode in /Users/hdh/code/resource_code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
+//warning fetchWhenSave hardcode in /Users/hoolai/Documents/code/2048_master/Pods/AVOSCloud/AVOS/AVOSCloud/Object/AVObjectUtils.m
 #define fetchWhenSave fetchWhenSave 
 #define _fetchWhenSave _fetchWhenSave 
 #define setFetchWhenSave setFetchWhenSave 
@@ -432,6 +440,9 @@
 #ifndef hdhDefaultTheme
 #define hdhDefaultTheme _STC4EA27E19EE47A4CDF5BBC4E6038D57C8_
 #endif
+#ifndef DKSHTMLController
+#define DKSHTMLController _STCC506C2776497923CDEC40F92C29539B3_
+#endif
 #ifndef LCHTTPResponseSerializer
 #define LCHTTPResponseSerializer _STC2EA271F63CA8010802DB249D0CFACD54_
 #endif
@@ -446,6 +457,9 @@
 #endif
 #ifndef LCPropertyListResponseSerializer
 #define LCPropertyListResponseSerializer _STC5F4F3EC4F9D9FF03C735ABD6DD25C57A_
+#endif
+#ifndef DKSWebViewController
+#define DKSWebViewController _STC50FD8A95D4D6E2560EA34E2B7CD7E30B_
 #endif
 #ifndef AVCaptcha
 #define AVCaptcha _STC7933D2835625C5F059014220A5F40A66_
@@ -470,6 +484,9 @@
 #endif
 #ifndef dictionaryFromArray
 #define dictionaryFromArray _STC4D511B10A93E6243CD45F77B318BECE3_
+#endif
+#ifndef topObject
+#define topObject _STC00E7B00A0DDF0185880E102928943E04_
 #endif
 #ifndef dictionaryFromArray
 #define dictionaryFromArray _STC4D511B10A93E6243CD45F77B318BECE3_
@@ -506,6 +523,9 @@
 #endif
 #ifndef isAnonymous
 #define isAnonymous _STC310AB706BE7974969E05A3076B5BD980_
+#endif
+#ifndef isRelation
+#define isRelation _STC9634B0D248B902F20E9233C04E82B72D_
 #endif
 #ifndef forEach
 #define forEach _STC31F01E393B18A53BDE689D8A2729124F_
@@ -570,6 +590,9 @@
 #ifndef createNewSessionWithConfiguration
 #define createNewSessionWithConfiguration _STCCB4997F135F84A8F0C2B2C7B9D35B102_
 #endif
+#ifndef deviceModel
+#define deviceModel _STC4730FA0E28248E233BECBAF5A7455512_
+#endif
 #ifndef countOfCheckedOutDatabases
 #define countOfCheckedOutDatabases _STC56820FCD3DCDCE42BCC0BAEF6DB45BC6_
 #endif
@@ -603,6 +626,9 @@
 #ifndef isReachableViaWWAN
 #define isReachableViaWWAN _STC6682F6042D2B415F237642DF9BAAFBAF_
 #endif
+#ifndef buttonColor
+#define buttonColor _STC5D3072F37DA0F2B63A5B1F9B5D2BDBD3_
+#endif
 #ifndef getFileWithId
 #define getFileWithId _STC579A5F2EE92D5B301BDA42BAC4B62B6B_
 #endif
@@ -620,6 +646,9 @@
 #endif
 #ifndef fetchIfNeededWithKeys
 #define fetchIfNeededWithKeys _STC9B8FC57571787A0CBA8553B1C3CBB1E9_
+#endif
+#ifndef addProgressBar
+#define addProgressBar _STCEB1CC0885FCE6444057AC907CDF3A265_
 #endif
 #ifndef loadGlobalState
 #define loadGlobalState _STC7BAC96B303BD39EC2EECCC48C9F4640A_
@@ -677,6 +706,9 @@
 #endif
 #ifndef withArgumentsInArray
 #define withArgumentsInArray _STC43C6DCE3F3A47D05D4FC2EF455960FEC_
+#endif
+#ifndef orDictionary
+#define orDictionary _STCD65AB5FCE8087307CF17CD061ABC8222_
 #endif
 #ifndef orVAList
 #define orVAList _STCC38B27217F1471054F8F5B4005F2D87C_
@@ -768,6 +800,9 @@
 #ifndef whereNear
 #define whereNear _STC94569EB8EB6C8BA491BFCDAC642F0389_
 #endif
+#ifndef inOrder
+#define inOrder _STC639ED15A59A90B262793103B91A8CE28_
+#endif
 #ifndef loginAnonymouslyWithCallback
 #define loginAnonymouslyWithCallback _STC4D31E59E6B63F67AB4B93F5A6AEB8802_
 #endif
@@ -791,6 +826,9 @@
 #endif
 #ifndef startInBackground
 #define startInBackground _STC01C02FF824E2D900810B66AADE7106E2_
+#endif
+#ifndef timerCallback
+#define timerCallback _STCDCE3AC83823DE63349623A712AF30981_
 #endif
 #ifndef removeDict
 #define removeDict _STC30983BFE990701D65C8B4AAC5F62620C_
@@ -836,6 +874,9 @@
 #endif
 #ifndef clearAllCachedResults
 #define clearAllCachedResults _STCE75E7C4859A35574BED91ECC4DDD942D_
+#endif
+#ifndef deleteAll
+#define deleteAll _STCF26D61E2EB1259A66A9A23C4B8B051D9_
 #endif
 #ifndef shouldDecodeImage
 #define shouldDecodeImage _STC3F697CF47265D41D1BC4070895DF7592_
@@ -960,6 +1001,9 @@
 #ifndef sendPush
 #define sendPush _STCEA1194453D0C554B1848FDF0156EE734_
 #endif
+#ifndef deleteValueForKey
+#define deleteValueForKey _STCB24D857F97EE19F7738EC05964583D66_
+#endif
 #ifndef randomAvailableCell
 #define randomAvailableCell _STC524167753F5F34E13D2D4973AFBE585C_
 #endif
@@ -990,6 +1034,9 @@
 #ifndef refreshAndThrowsWithError
 #define refreshAndThrowsWithError _STC8F2ACF433DC5C1C25F5B4A1A6D5C21D8_
 #endif
+#ifndef fetch
+#define fetch _STC44EDF49FB3ADDC9D611B3F746072BBDB_
+#endif
 #ifndef inDeferredTransaction
 #define inDeferredTransaction _STC7B794C2584D2CA0D389D8E160A449DC5_
 #endif
@@ -1013,6 +1060,9 @@
 #endif
 #ifndef dataForColumnIndex
 #define dataForColumnIndex _STC6EB67CD2F42B28F2609473F9148CE5AF_
+#endif
+#ifndef addTwoRandomTiles
+#define addTwoRandomTiles _STCEEB025F30A006DEB286D953CEA7853B2_
 #endif
 #ifndef hasPendingMerge
 #define hasPendingMerge _STC81E4EE2BF4906310A2E54057C5FE83E7_
@@ -1113,6 +1163,9 @@
 #ifndef longForColumnIndex
 #define longForColumnIndex _STC042ACA6BB87B8AC9BFB1EBE9C2DF0197_
 #endif
+#ifndef deleteAll
+#define deleteAll _STCF26D61E2EB1259A66A9A23C4B8B051D9_
+#endif
 #ifndef defaultCachePathForKey
 #define defaultCachePathForKey _STC84CE90B8569E9E8878F364B84DE5D26F_
 #endif
@@ -1125,8 +1178,14 @@
 #ifndef gcdTimerTest
 #define gcdTimerTest _STC199930D66E8D1677555D828FB37D61AB_
 #endif
+#ifndef loadHTML
+#define loadHTML _STCA1F7FE57CAF62E29664546AA6C8EF947_
+#endif
 #ifndef whereNear
 #define whereNear _STC94569EB8EB6C8BA491BFCDAC642F0389_
+#endif
+#ifndef inOrder
+#define inOrder _STC639ED15A59A90B262793103B91A8CE28_
 #endif
 #ifndef andUnit
 #define andUnit _STCB4E9873EE359CFB55C19361056F52B32_
@@ -1235,6 +1294,9 @@
 #endif
 #ifndef sendWithBatch
 #define sendWithBatch _STCEE480FE848E0FEEBC3EFA1C9CDDDB94A_
+#endif
+#ifndef userTag
+#define userTag _STC5DF52AD38A42D0E4E7C48BC251D1AAEB_
 #endif
 #ifndef saveAllInBackground
 #define saveAllInBackground _STC6FB643A7EE4BDC9021C579207641A2E6_
@@ -1644,11 +1706,17 @@
 #ifndef installationDictionaryForCache
 #define installationDictionaryForCache _STC865C1508D95621B41B9BB58495082749_
 #endif
+#ifndef fetchAll
+#define fetchAll _STC9CD03052CB124F4443B11FB5A167AC12_
+#endif
 #ifndef checkIfNeed
 #define checkIfNeed _STC6EBB9FAA1824C7817DE0733712F194FA_
 #endif
 #ifndef createArrayForKey
 #define createArrayForKey _STCE443526D9DBD308E602D6F2962AE925B_
+#endif
+#ifndef fetchAll
+#define fetchAll _STC9CD03052CB124F4443B11FB5A167AC12_
 #endif
 #ifndef shouldStatisticsForPath
 #define shouldStatisticsForPath _STCADD348F328A09EC311E13D94E5449A05_
@@ -1698,6 +1766,9 @@
 #ifndef requestSmsCodeWithPhoneNumber
 #define requestSmsCodeWithPhoneNumber _STC7643CD57E382EA7033B78CDC61A4DFB7_
 #endif
+#ifndef templateName
+#define templateName _STC4288CF452F14D53E923005EF35742089_
+#endif
 #ifndef findObjectsAndThrowsWithError
 #define findObjectsAndThrowsWithError _STCF6F8C7DB97936BD0ECA40120829B4721_
 #endif
@@ -1712,6 +1783,9 @@
 #endif
 #ifndef createTimeStampInMilliSeconds
 #define createTimeStampInMilliSeconds _STC65BF4782C2D3FFAB0B5B908BFE5F2E70_
+#endif
+#ifndef doInitialize
+#define doInitialize _STC2A053033691001066AA97A36A6C8F8BB_
 #endif
 #ifndef backgroundDeleteOldFiles
 #define backgroundDeleteOldFiles _STC91BDB1C291E06256AAE8C960EC38AF02_
@@ -1737,6 +1811,9 @@
 #ifndef dictionaryFromIncludeKeys
 #define dictionaryFromIncludeKeys _STC477438670F465FDCC85A0275151B7102_
 #endif
+#ifndef setDict
+#define setDict _STC8806B32437B1FCBF0D21DE4DCEE1C49C_
+#endif
 #ifndef setInitialAndFinalBoundaries
 #define setInitialAndFinalBoundaries _STCCC470753DE1DC703A5CAEA0DFE75468C_
 #endif
@@ -1755,6 +1832,9 @@
 #ifndef packageName
 #define packageName _STC9692CCF583462E5E94C7B59CB10BE826_
 #endif
+#ifndef showAlert
+#define showAlert _STC0DB10BBA6FBF5217CCCC5DB39010F7E5_
+#endif
 #ifndef canDecodeFromHEICFormat
 #define canDecodeFromHEICFormat _STC88BAF7082E75E6740EA4EA09BC628787_
 #endif
@@ -1763,6 +1843,9 @@
 #endif
 #ifndef rpcFunction
 #define rpcFunction _STC83406667DC95C39E71CB77E59711735A_
+#endif
+#ifndef closeNative
+#define closeNative _STCAF733DAD30F24C6982A2ECF69CC6EFB2_
 #endif
 #ifndef whereKey
 #define whereKey _STC7B986BCB4B0B8DB462A0E8AD4F866B37_
@@ -1809,6 +1892,9 @@
 #ifndef formatSQL
 #define formatSQL _STC3D9F5D9FD76B4B141BCEA204DBE5E255_
 #endif
+#ifndef withTableName
+#define withTableName _STCF903CFDD52DFAFBE9EE599D6F68EE669_
+#endif
 #ifndef hasCacheForKey
 #define hasCacheForKey _STCF5227137A0EE51757F48DD6699CF5BAB_
 #endif
@@ -1847,6 +1933,9 @@
 #endif
 #ifndef deleteAllInBackgroundWithBlock
 #define deleteAllInBackgroundWithBlock _STCF1EBB5A3B5B7BB0ED87391BEBE9F287C_
+#endif
+#ifndef createDirectoryIfNeeded
+#define createDirectoryIfNeeded _STC5DE4DB301BF28A30C2D641B2F51810B0_
 #endif
 #ifndef sendOneSession
 #define sendOneSession _STC124D50F65B69C47388B3597C5D7432CF_
@@ -1995,6 +2084,9 @@
 #ifndef launchDictionary
 #define launchDictionary _STCC51BA2CB1C22FF2E309D76FE0B206C52_
 #endif
+#ifndef objectWithDictionary
+#define objectWithDictionary _STC11C926320077BF48420D757D6DFA1C29_
+#endif
 #ifndef boolForColumnIndex
 #define boolForColumnIndex _STC27AACEA54A05DABF146F86829FE05511_
 #endif
@@ -2003,6 +2095,9 @@
 #endif
 #ifndef uploadCompletionHandler
 #define uploadCompletionHandler _STC65AFC002D50A7F7DA9E990D79D7B6A87_
+#endif
+#ifndef addLeftButton
+#define addLeftButton _STC8D6E5F6876E1EA9E537FAA02FE98FFFD_
 #endif
 #ifndef findObjectsInBackgroundWithTarget
 #define findObjectsInBackgroundWithTarget _STC33A1839CE9D94063F5914D6AB7B5EB9E_
@@ -2054,6 +2149,9 @@
 #endif
 #ifndef whereKey
 #define whereKey _STC7B986BCB4B0B8DB462A0E8AD4F866B37_
+#endif
+#ifndef matchesRegex
+#define matchesRegex _STCF1D72AA2C514D91D7E5410412F2D1C9C_
 #endif
 #ifndef doCloudQueryInBackgroundWithCQL
 #define doCloudQueryInBackgroundWithCQL _STC7E675E8FF0CEAA9A4449738428C351FF_
@@ -2484,6 +2582,9 @@
 #ifndef invalidateSessionAndCancel
 #define invalidateSessionAndCancel _STC2B9DE9BCA0C1339C2D5EEF1427A8CC04_
 #endif
+#ifndef removeImageForKey
+#define removeImageForKey _STC74FFB5F8228B3F5EAED3D78B7AFC50C5_
+#endif
 #ifndef fromDisk
 #define fromDisk _STCA2E2586698AB1EDC3F421DA5354AC909_
 #endif
@@ -2613,11 +2714,17 @@
 #ifndef executeTransaction
 #define executeTransaction _STCB6212EBF99FEB87D005F60621E8F1624_
 #endif
+#ifndef fail
+#define fail _STC7E290903F4EE2B589921E02C4EE5000E_
+#endif
 #ifndef resultDict
 #define resultDict _STCDDFA2573877CEDC77E81B16C024E48A8_
 #endif
 #ifndef saveInstallationToLocalCache
 #define saveInstallationToLocalCache _STC3911DA58451949B04134C67FE7F19F8B_
+#endif
+#ifndef removeImageForKey
+#define removeImageForKey _STC74FFB5F8228B3F5EAED3D78B7AFC50C5_
 #endif
 #ifndef containsProperty
 #define containsProperty _STC792A67D7FC81F086B4E11034EBFB6403_
@@ -2751,6 +2858,9 @@
 #ifndef getWriteAccessForRole
 #define getWriteAccessForRole _STCF51BB589768EFFBDBBC03B5035D1A72F_
 #endif
+#ifndef jsonDictionary
+#define jsonDictionary _STCE48440C68CBE4E01E1D1AD427B4E9FB2_
+#endif
 #ifndef getReadAccessForUser
 #define getReadAccessForUser _STCE0CEA3882A41AF80DEB6A125A30024C7_
 #endif
@@ -2774,6 +2884,9 @@
 #endif
 #ifndef dictionaryFromDictionary
 #define dictionaryFromDictionary _STC1331DDB402B63DE2B7620B74C60C1A5F_
+#endif
+#ifndef topObject
+#define topObject _STC00E7B00A0DDF0185880E102928943E04_
 #endif
 #ifndef distanceInRadiansTo
 #define distanceInRadiansTo _STCED59FFB0EF585891CFB705FAC5E01A63_
@@ -2852,6 +2965,9 @@
 #endif
 #ifndef databaseWithPath
 #define databaseWithPath _STCF187A9362D229D560DE84A48BAD8CA14_
+#endif
+#ifndef fetch
+#define fetch _STC44EDF49FB3ADDC9D611B3F746072BBDB_
 #endif
 #ifndef dateForColumnIndex
 #define dateForColumnIndex _STC588BC5DB5D62CB1872DCB59C5E41F0AC_
@@ -2955,6 +3071,9 @@
 #ifndef _enableCrashReportRunloop
 #define _enableCrashReportRunloop _STC4CD03E56A0F20E5F3C90A01BA67E4EB7_
 #endif
+#ifndef willTerminate
+#define willTerminate _STCA6CBB594A42D7154471639678FA51E51_
+#endif
 #ifndef callUserResultBlock
 #define callUserResultBlock _STC051A9A7CA8F8E92907615390C493077B_
 #endif
@@ -3006,6 +3125,9 @@
 #ifndef addRequestForKey
 #define addRequestForKey _STCCE7CEC8BD6A233E81C9AD67BE55032F8_
 #endif
+#ifndef removeFrom
+#define removeFrom _STCB016A83AEC0F80A5F9DBD84A09AF3A87_
+#endif
 #ifndef containsProperty
 #define containsProperty _STC792A67D7FC81F086B4E11034EBFB6403_
 #endif
@@ -3023,6 +3145,9 @@
 #endif
 #ifndef withArgumentsInArray
 #define withArgumentsInArray _STC43C6DCE3F3A47D05D4FC2EF455960FEC_
+#endif
+#ifndef orDictionary
+#define orDictionary _STCD65AB5FCE8087307CF17CD061ABC8222_
 #endif
 #ifndef orVAList
 #define orVAList _STCC38B27217F1471054F8F5B4005F2D87C_
@@ -3072,6 +3197,9 @@
 #ifndef migrationWithBlock
 #define migrationWithBlock _STCA0D035E63AA6EA5A8C3DA692BC83A3D9_
 #endif
+#ifndef backNative
+#define backNative _STC0DD59CC8FA3B0D4B2DE1EC5259758A01_
+#endif
 #ifndef mergeLevel
 #define mergeLevel _STC9F333A75B203A679730A03415056C054_
 #endif
@@ -3114,6 +3242,9 @@
 #ifndef operationWithTask
 #define operationWithTask _STC05C4EF242090D9CE545218A957A01A41_
 #endif
+#ifndef jsonDictionary
+#define jsonDictionary _STCE48440C68CBE4E01E1D1AD427B4E9FB2_
+#endif
 #ifndef validateStatusCode
 #define validateStatusCode _STCA6EBEF00303980FCC478B53264415C57_
 #endif
@@ -3122,6 +3253,9 @@
 #endif
 #ifndef sqlitePath
 #define sqlitePath _STC5077DFE6FB2464A1ECE00BB046BFB4A7_
+#endif
+#ifndef dbQueue
+#define dbQueue _STCAD7EA33A3C5619A0F6BE329FC26FE795_
 #endif
 #ifndef sendPushInBackgroundWithTarget
 #define sendPushInBackgroundWithTarget _STC8094485419347964B22C7280341BF68F_
@@ -3282,6 +3416,9 @@
 #ifndef expireAtDate
 #define expireAtDate _STC66DED5369AC9E04ABC93F4F864899FEB_
 #endif
+#ifndef fetchAll
+#define fetchAll _STC9CD03052CB124F4443B11FB5A167AC12_
+#endif
 #ifndef availableCells
 #define availableCells _STCB5D76285EF8FA091C028298E50A8D6B3_
 #endif
@@ -3290,6 +3427,9 @@
 #endif
 #ifndef whereKey
 #define whereKey _STC7B986BCB4B0B8DB462A0E8AD4F866B37_
+#endif
+#ifndef matchesRegex
+#define matchesRegex _STCF1D72AA2C514D91D7E5410412F2D1C9C_
 #endif
 #ifndef requestByFinalizingMultipartFormData
 #define requestByFinalizingMultipartFormData _STCC5FF24B8C74D184BBFB93F06D337C3F7_
@@ -3311,6 +3451,9 @@
 #endif
 #ifndef dictionaryFromObject
 #define dictionaryFromObject _STC62A49B13DD9AD07FFC457928D55931A0_
+#endif
+#ifndef topObject
+#define topObject _STC00E7B00A0DDF0185880E102928943E04_
 #endif
 #ifndef whereKey
 #define whereKey _STC7B986BCB4B0B8DB462A0E8AD4F866B37_
@@ -3635,6 +3778,15 @@
 #endif
 #ifndef setFailedURLsLock
 #define setFailedURLsLock set_STC47D321CCF73F491380C750724243CA63_
+#endif
+#ifndef isAuthed
+#define isAuthed _STCE168A39E898F723A1338FF36E8406C89_
+#endif
+#ifndef _isAuthed
+#define _isAuthed __STCE168A39E898F723A1338FF36E8406C89_
+#endif
+#ifndef setIsAuthed
+#define setIsAuthed set_STCE168A39E898F723A1338FF36E8406C89_
 #endif
 #ifndef diskCacheExpireType
 #define diskCacheExpireType _STC6EFB3E47DC4D01B7A450419BCA0DA14A_
@@ -4005,6 +4157,15 @@
 #ifndef setCheckedOut
 #define setCheckedOut set_STCD45D1FBAE29D907194611239548C5354_
 #endif
+#ifndef extraParameters
+#define extraParameters _STCE62BAEE4412F55A04EA1231AE0F5F48F_
+#endif
+#ifndef _extraParameters
+#define _extraParameters __STCE62BAEE4412F55A04EA1231AE0F5F48F_
+#endif
+#ifndef setExtraParameters
+#define setExtraParameters set_STCE62BAEE4412F55A04EA1231AE0F5F48F_
+#endif
 #ifndef acc
 #define acc _STC202133F594D546D2C8F29A4991EB2622_
 #endif
@@ -4040,6 +4201,15 @@
 #endif
 #ifndef setResponseSerializers
 #define setResponseSerializers set_STCF775FFA8BE7726122B73478CBA42D34C_
+#endif
+#ifndef gameType
+#define gameType _STC0EBDBE9D1F7A7B4D37BC3686589EF6A4_
+#endif
+#ifndef _gameType
+#define _gameType __STC0EBDBE9D1F7A7B4D37BC3686589EF6A4_
+#endif
+#ifndef setGameType
+#define setGameType set_STC0EBDBE9D1F7A7B4D37BC3686589EF6A4_
 #endif
 #ifndef passwordTextField
 #define passwordTextField _STC58DFC77B24C66B7A775727A99F2B4AD2_
@@ -4247,6 +4417,15 @@
 #endif
 #ifndef setBackgroundTaskId
 #define setBackgroundTaskId set_STCEBDDE77C36471C0E9EB7751748EDBFF5_
+#endif
+#ifndef sessions
+#define sessions _STCF41016FAFFEE24D7F82A6F057B23CDCB_
+#endif
+#ifndef _sessions
+#define _sessions __STCF41016FAFFEE24D7F82A6F057B23CDCB_
+#endif
+#ifndef setSessions
+#define setSessions set_STCF41016FAFFEE24D7F82A6F057B23CDCB_
 #endif
 #ifndef createdAt
 #define createdAt _STCDCB05428995DBA054B874C27485B65C6_
@@ -4527,6 +4706,15 @@
 #ifndef setWeakCacheLock
 #define setWeakCacheLock set_STC932E4586D5F98F661C3EE45734A26E42_
 #endif
+#ifndef closeItem
+#define closeItem _STC93740E2895C5146A52AE0E392F9B6791_
+#endif
+#ifndef _closeItem
+#define _closeItem __STC93740E2895C5146A52AE0E392F9B6791_
+#endif
+#ifndef setCloseItem
+#define setCloseItem set_STC93740E2895C5146A52AE0E392F9B6791_
+#endif
 #ifndef mutableTaskDelegatesKeyedByTaskIdentifier
 #define mutableTaskDelegatesKeyedByTaskIdentifier _STC124FDCEE7BC092869E558BCC459188BD_
 #endif
@@ -4572,6 +4760,15 @@
 #ifndef setDidFinishEventsForBackgroundURLSession
 #define setDidFinishEventsForBackgroundURLSession set_STCE94B19A91362C6C35AFB9D8351701D93_
 #endif
+#ifndef boundary
+#define boundary _STC2BE76DC9153A98EFCBF95B0E9E8FB42F_
+#endif
+#ifndef _boundary
+#define _boundary __STC2BE76DC9153A98EFCBF95B0E9E8FB42F_
+#endif
+#ifndef setBoundary
+#define setBoundary set_STC2BE76DC9153A98EFCBF95B0E9E8FB42F_
+#endif
 #ifndef taskDidReceiveAuthenticationChallenge
 #define taskDidReceiveAuthenticationChallenge _STCE3C37F53DFE2655264046AB93C8A5DF3_
 #endif
@@ -4580,6 +4777,15 @@
 #endif
 #ifndef setTaskDidReceiveAuthenticationChallenge
 #define setTaskDidReceiveAuthenticationChallenge set_STCE3C37F53DFE2655264046AB93C8A5DF3_
+#endif
+#ifndef htmlUrl
+#define htmlUrl _STC514937F1D461682264B7D0CFFFEBA000_
+#endif
+#ifndef _htmlUrl
+#define _htmlUrl __STC514937F1D461682264B7D0CFFFEBA000_
+#endif
+#ifndef setHtmlUrl
+#define setHtmlUrl set_STC514937F1D461682264B7D0CFFFEBA000_
 #endif
 #ifndef taskDidSendBodyData
 #define taskDidSendBodyData _STC9B47D83459E783267FD67315EB5C68F2_
@@ -4706,6 +4912,15 @@
 #endif
 #ifndef setRemovesKeysWithNullValues
 #define setRemovesKeysWithNullValues set_STC9B41CC8D58FCCEA97A3DBF62AB8F8DB8_
+#endif
+#ifndef inUse
+#define inUse _STC805BC6FA546ED43C2DC1B85FA721D71A_
+#endif
+#ifndef _inUse
+#define _inUse __STC805BC6FA546ED43C2DC1B85FA721D71A_
+#endif
+#ifndef setInUse
+#define setInUse set_STC805BC6FA546ED43C2DC1B85FA721D71A_
 #endif
 #ifndef createTimeStamp
 #define createTimeStamp _STCBD556FD39A4D9D6ED8A7D70E38DC2CCC_
@@ -4887,6 +5102,15 @@
 #ifndef setCurrentActivityName
 #define setCurrentActivityName set_STC343F62C460D4F370DE696940143360BA_
 #endif
+#ifndef objectId
+#define objectId _STC3D530603841FB86DC3A8E9F498BE7D4E_
+#endif
+#ifndef _objectId
+#define _objectId __STC3D530603841FB86DC3A8E9F498BE7D4E_
+#endif
+#ifndef setObjectId
+#define setObjectId set_STC3D530603841FB86DC3A8E9F498BE7D4E_
+#endif
 #ifndef headersLock
 #define headersLock _STCAEA2DA201D0766CCC7CD50C10CB6D08E_
 #endif
@@ -4968,6 +5192,15 @@
 #ifndef setLifesavingAPIURLString
 #define setLifesavingAPIURLString set_STC382495FB408C8CE68A6986C22B2A4F32_
 #endif
+#ifndef HTTPHeaders
+#define HTTPHeaders _STC5FD1B6B96598840476065338AE8F90E2_
+#endif
+#ifndef _HTTPHeaders
+#define _HTTPHeaders __STC5FD1B6B96598840476065338AE8F90E2_
+#endif
+#ifndef setHTTPHeaders
+#define setHTTPHeaders set_STC5FD1B6B96598840476065338AE8F90E2_
+#endif
 #ifndef networkReachability
 #define networkReachability _STCD62167AC4DEA158EB0C08CDF2ECD3420_
 #endif
@@ -4995,14 +5228,23 @@
 #ifndef setCurrentHTTPBodyPart
 #define setCurrentHTTPBodyPart set_STC6A6CBF7E875313BA0DA2ACB78B676122_
 #endif
-#ifndef requestSerializer
-#define requestSerializer _STC0FC227AE30B45D63671B6E26B38FA75A_
+#ifndef urlCredential
+#define urlCredential _STC0700E4B82AEDB07F05411010A0B7D600_
 #endif
-#ifndef _requestSerializer
-#define _requestSerializer __STC0FC227AE30B45D63671B6E26B38FA75A_
+#ifndef _urlCredential
+#define _urlCredential __STC0700E4B82AEDB07F05411010A0B7D600_
 #endif
-#ifndef setRequestSerializer
-#define setRequestSerializer set_STC0FC227AE30B45D63671B6E26B38FA75A_
+#ifndef setUrlCredential
+#define setUrlCredential set_STC0700E4B82AEDB07F05411010A0B7D600_
+#endif
+#ifndef progressView
+#define progressView _STC1F1B6F0D7D425600D1F5563B583B86C0_
+#endif
+#ifndef _progressView
+#define _progressView __STC1F1B6F0D7D425600D1F5563B583B86C0_
+#endif
+#ifndef setProgressView
+#define setProgressView set_STC1F1B6F0D7D425600D1F5563B583B86C0_
 #endif
 #ifndef pinnedCertificates
 #define pinnedCertificates _STCC494040248B379420290B710B0ED2687_
@@ -5012,6 +5254,15 @@
 #endif
 #ifndef setPinnedCertificates
 #define setPinnedCertificates set_STCC494040248B379420290B710B0ED2687_
+#endif
+#ifndef requestSerializer
+#define requestSerializer _STC0FC227AE30B45D63671B6E26B38FA75A_
+#endif
+#ifndef _requestSerializer
+#define _requestSerializer __STC0FC227AE30B45D63671B6E26B38FA75A_
+#endif
+#ifndef setRequestSerializer
+#define setRequestSerializer set_STC0FC227AE30B45D63671B6E26B38FA75A_
 #endif
 #ifndef externalQueryPath
 #define externalQueryPath _STCBE0868DBE55AD52B60B79CFBD3A7ED58_
@@ -5148,6 +5399,15 @@
 #ifndef setSelectedKeys
 #define setSelectedKeys set_STCE10AF811A2E510A7361D7B8792AFFC3E_
 #endif
+#ifndef include
+#define include _STC97D8456CA95441B00CEF2121DE82E991_
+#endif
+#ifndef _include
+#define _include __STC97D8456CA95441B00CEF2121DE82E991_
+#endif
+#ifndef setInclude
+#define setInclude set_STC97D8456CA95441B00CEF2121DE82E991_
+#endif
 #ifndef reportPolicy
 #define reportPolicy _STCEC0C8FFF44717BD96920EA4863B13657_
 #endif
@@ -5238,6 +5498,15 @@
 #ifndef setHasFinalBoundary
 #define setHasFinalBoundary set_STC260E24320D9C03EEA7E276BACB891594_
 #endif
+#ifndef downloadQueue
+#define downloadQueue _STC2346CE62987D13C6C602F44194ACB779_
+#endif
+#ifndef _downloadQueue
+#define _downloadQueue __STC2346CE62987D13C6C602F44194ACB779_
+#endif
+#ifndef setDownloadQueue
+#define setDownloadQueue set_STC2346CE62987D13C6C602F44194ACB779_
+#endif
 #ifndef permissionsById
 #define permissionsById _STC471FC84053B5A0B771EDAA98C59E9D71_
 #endif
@@ -5282,6 +5551,15 @@
 #endif
 #ifndef setOwnerId
 #define setOwnerId set_STC6081E5BB6E342252110DECE7FDF0DF32_
+#endif
+#ifndef theBool
+#define theBool _STCCF7149593AFBB796447692284754CF49_
+#endif
+#ifndef _theBool
+#define _theBool __STCCF7149593AFBB796447692284754CF49_
+#endif
+#ifndef setTheBool
+#define setTheBool set_STCCF7149593AFBB796447692284754CF49_
 #endif
 #ifndef propertyforKey
 #define propertyforKey _STCECBCBEC3FFA37DDCFF37683BFA05B1BD_
@@ -5597,6 +5875,15 @@
 #endif
 #ifndef setFailedURLs
 #define setFailedURLs set_STCE765BF912128EDAF3E40B4D7578F80A0_
+#endif
+#ifndef currentUser
+#define currentUser _STCE2D04CC8A6D1ED5E6E72B2B1AAC33380_
+#endif
+#ifndef _currentUser
+#define _currentUser __STCE2D04CC8A6D1ED5E6E72B2B1AAC33380_
+#endif
+#ifndef setCurrentUser
+#define setCurrentUser set_STCE2D04CC8A6D1ED5E6E72B2B1AAC33380_
 #endif
 #ifndef cacheQueue
 #define cacheQueue _STCB7A2D4A544BCA29FEEAFE56D9FDD83BD_
