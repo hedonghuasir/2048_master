@@ -887,7 +887,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/AVOSCloud\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.m2048;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.03m2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -912,7 +912,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/m2048/Lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.m2048;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hedonghuasir.03m2048;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
