@@ -69,7 +69,7 @@
     [AVOSCloud setApplicationId:APP_ID clientKey:APP_KEY];
     //开启调试日志
     [AVOSCloud setAllLogsEnabled:NO];
-    //    [AVUser logOut];
+//    [AVUser logOut];
   return YES;
 }
 - (void)application:(UIApplication *)application
