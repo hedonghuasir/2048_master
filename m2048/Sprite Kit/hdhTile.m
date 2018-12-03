@@ -171,6 +171,7 @@ typedef void (^hdhBlock)();
 
 
 - (void)moveToCell:(hdhCell *)cell {
+    NSLog(@"moveToCell===%f===%f",[GSTATE locationOfPosition:cell.position].x,[GSTATE locationOfPosition:cell.position].y);
     [_pendingActions addObject:[SKAction moveTo:[GSTATE locationOfPosition:cell.position]
                                        duration:GSTATE.animationDuration]];
     self.cell.tile = nil;

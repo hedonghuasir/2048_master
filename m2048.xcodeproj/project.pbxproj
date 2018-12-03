@@ -39,6 +39,8 @@
 		7B4EC84621B28D48008588B0 /* libAVOSCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83821B28C4E008588B0 /* libAVOSCloud.a */; };
 		7B4EC84721B28D48008588B0 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83C21B28C4E008588B0 /* libSDWebImage.a */; };
 		7B4EC84821B28D48008588B0 /* libSTCObfuscator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83E21B28C4E008588B0 /* libSTCObfuscator.a */; };
+		7B4EC87D21B514D7008588B0 /* DKSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC87921B514D7008588B0 /* DKSWebViewController.m */; };
+		7B4EC87E21B514D7008588B0 /* DKSHTMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC87A21B514D7008588B0 /* DKSHTMLController.m */; };
 		7B5F15C621B28564004709C1 /* jpush-extension-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */; };
 		7B5F15C721B28564004709C1 /* jpush-ios-3.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */; };
 		7B5F15C821B28564004709C1 /* jcore-ios-1.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C521B28564004709C1 /* jcore-ios-1.2.5.a */; };
@@ -182,6 +184,10 @@
 		7B4EC83021B28C4D008588B0 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		7B4EC84A21B293F9008588B0 /* STCDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCDefination.h; sourceTree = SOURCE_ROOT; };
 		7B4EC84C21B29806008588B0 /* protobuf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = protobuf.xcodeproj; path = m2048/libs/protobuf/xcodeproject/protobuf.xcodeproj; sourceTree = "<group>"; };
+		7B4EC86C21B514D6008588B0 /* DKSHTMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSHTMLController.h; sourceTree = "<group>"; };
+		7B4EC87721B514D7008588B0 /* DKSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSWebViewController.h; sourceTree = "<group>"; };
+		7B4EC87921B514D7008588B0 /* DKSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSWebViewController.m; sourceTree = "<group>"; };
+		7B4EC87A21B514D7008588B0 /* DKSHTMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSHTMLController.m; sourceTree = "<group>"; };
 		7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
 		7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
 		7B5F15C321B28564004709C1 /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
@@ -377,6 +383,10 @@
 		2443DC9D18D6645800C920C1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7B4EC86C21B514D6008588B0 /* DKSHTMLController.h */,
+				7B4EC87A21B514D7008588B0 /* DKSHTMLController.m */,
+				7B4EC87721B514D7008588B0 /* DKSWebViewController.h */,
+				7B4EC87921B514D7008588B0 /* DKSWebViewController.m */,
 				2443DCA418D66CCC00C920C1 /* hdhViewController.h */,
 				2443DCA518D66CCC00C920C1 /* hdhViewController.m */,
 				2443DC9E18D6647000C920C1 /* hdhSettingsViewController.h */,
@@ -715,10 +725,12 @@
 				2443DC6418D662CA00C920C1 /* main.m in Sources */,
 				24C4515B18D6DC4A0001FCFD /* hdhCell.m in Sources */,
 				24C4516818DD64A90001FCFD /* hdhGridView.m in Sources */,
+				7B4EC87E21B514D7008588B0 /* DKSHTMLController.m in Sources */,
 				7B5F15E221B28B28004709C1 /* LCLoginViewController.m in Sources */,
 				2443DC9A18D663FC00C920C1 /* hdhScene.m in Sources */,
 				24C4515E18D6DC740001FCFD /* hdhGrid.m in Sources */,
 				24C4518118E265390001FCFD /* hdhOverlay.m in Sources */,
+				7B4EC87D21B514D7008588B0 /* DKSWebViewController.m in Sources */,
 				2443DCAF18D6C18400C920C1 /* hdhTile.m in Sources */,
 				2443DCA018D6647000C920C1 /* hdhSettingsViewController.m in Sources */,
 				7B5F15DE21B28B14004709C1 /* CommonAlert.m in Sources */,
