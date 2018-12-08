@@ -10,7 +10,7 @@
 //#import "LCTabBarController.h"
 #import <AVOSCloud/AVOSCloud.h>
 #import "CommonAlert.h"
-//#import "XHBGomokuGameSencesViewController.h"
+//#import "hdhGomokuGameSencesViewController.h"
 @interface LCLoginViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;

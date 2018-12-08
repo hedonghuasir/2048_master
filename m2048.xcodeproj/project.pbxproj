@@ -974,6 +974,43 @@
 		7B4EC84821B28D48008588B0 /* libSTCObfuscator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EC83E21B28C4E008588B0 /* libSTCObfuscator.a */; };
 		7B4EC87D21B514D7008588B0 /* DKSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC87921B514D7008588B0 /* DKSWebViewController.m */; };
 		7B4EC87E21B514D7008588B0 /* DKSHTMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC87A21B514D7008588B0 /* DKSHTMLController.m */; };
+		7B4EC88621BBE24B008588B0 /* SelectGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC88521BBE24B008588B0 /* SelectGameViewController.m */; };
+		7B4EC89321BBE80E008588B0 /* hall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC89121BBE80D008588B0 /* hall.png */; };
+		7B4EC89421BBE80E008588B0 /* hall2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC89221BBE80D008588B0 /* hall2.png */; };
+		7B4EC89621BBF081008588B0 /* bn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC89521BBF081008588B0 /* bn_back.png */; };
+		7B4EC89C21BBF229008588B0 /* UIColor+setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC89A21BBF228008588B0 /* UIColor+setting.m */; };
+		7B4EC89D21BBF229008588B0 /* HBPlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC89B21BBF228008588B0 /* HBPlaySoundUtil.m */; };
+		7B4EC8B121BBF239008588B0 /* hdhGomokuChessModelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC89F21BBF239008588B0 /* hdhGomokuChessModelTemplate.m */; };
+		7B4EC8B221BBF239008588B0 /* hdhGomokuChessboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8A121BBF239008588B0 /* hdhGomokuChessboard.m */; };
+		7B4EC8B321BBF239008588B0 /* hdhGomokuGameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8AA21BBF239008588B0 /* hdhGomokuGameEngine.m */; };
+		7B4EC8B421BBF239008588B0 /* hdhGomokuEnvisionStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8AB21BBF239008588B0 /* hdhGomokuEnvisionStack.m */; };
+		7B4EC8B521BBF239008588B0 /* hdhGomokuBaseStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8AC21BBF239008588B0 /* hdhGomokuBaseStack.m */; };
+		7B4EC8B621BBF239008588B0 /* hdhGomokuChessPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8AD21BBF239008588B0 /* hdhGomokuChessPoint.m */; };
+		7B4EC8B721BBF239008588B0 /* hdhGomokuActualStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8AE21BBF239008588B0 /* hdhGomokuActualStack.m */; };
+		7B4EC8B821BBF239008588B0 /* hdhGomokuLinePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8AF21BBF239008588B0 /* hdhGomokuLinePoints.m */; };
+		7B4EC8B921BBF239008588B0 /* hdhGomokuChessElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8B021BBF239008588B0 /* hdhGomokuChessElement.m */; };
+		7B4EC8C221BBF26D008588B0 /* hdhGomokuGameSencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8BA21BBF26D008588B0 /* hdhGomokuGameSencesViewController.m */; };
+		7B4EC8C421BBF26D008588B0 /* hdhGomokuPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8BF21BBF26D008588B0 /* hdhGomokuPieceView.m */; };
+		7B4EC8C521BBF26D008588B0 /* hdhGomokuOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EC8C021BBF26D008588B0 /* hdhGomokuOverViewController.m */; };
+		7B4ECC8A21BBF686008588B0 /* lost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8CA21BBF67F008588B0 /* lost.wav */; };
+		7B4ECC8B21BBF686008588B0 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8CB21BBF67F008588B0 /* win.wav */; };
+		7B4ECC8C21BBF686008588B0 /* down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8CC21BBF67F008588B0 /* down.wav */; };
+		7B4ECC8D21BBF686008588B0 /* pipa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8CD21BBF67F008588B0 /* pipa.mp3 */; };
+		7B4ECC8E21BBF686008588B0 /* marking.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8CE21BBF67F008588B0 /* marking.wav */; };
+		7B4ECC8F21BBF686008588B0 /* au_victory.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8CF21BBF67F008588B0 /* au_victory.wav */; };
+		7B4ECC9021BBF686008588B0 /* check.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D021BBF67F008588B0 /* check.wav */; };
+		7B4ECC9121BBF686008588B0 /* BgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D121BBF67F008588B0 /* BgMusic.mp3 */; };
+		7B4ECC9221BBF686008588B0 /* au_gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D221BBF67F008588B0 /* au_gameover.wav */; };
+		7B4ECC9321BBF686008588B0 /* mode.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D321BBF67F008588B0 /* mode.wav */; };
+		7B4ECC9421BBF686008588B0 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D421BBF67F008588B0 /* start.wav */; };
+		7B4ECC9521BBF686008588B0 /* sy_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D521BBF67F008588B0 /* sy_back.png */; };
+		7B4ECC9621BBF686008588B0 /* stone_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D621BBF680008588B0 /* stone_black.png */; };
+		7B4ECC9821BBF686008588B0 /* stone_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D821BBF680008588B0 /* stone_white.png */; };
+		7B4ECC9921BBF686008588B0 /* gomokuboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8D921BBF680008588B0 /* gomokuboard.png */; };
+		7B4ECC9A21BBF686008588B0 /* xhs.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8DA21BBF681008588B0 /* xhs.png */; };
+		7B4ECC9B21BBF686008588B0 /* closeVolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8DB21BBF681008588B0 /* closeVolice.png */; };
+		7B4ECC9C21BBF686008588B0 /* openVolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8DC21BBF681008588B0 /* openVolice.png */; };
+		7B4ECC9E21BBF686008588B0 /* tips-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EC8DE21BBF682008588B0 /* tips-hd.png */; };
 		7B5F15C621B28564004709C1 /* jpush-extension-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */; };
 		7B5F15C721B28564004709C1 /* jpush-ios-3.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */; };
 		7B5F15C821B28564004709C1 /* jcore-ios-1.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5F15C521B28564004709C1 /* jcore-ios-1.2.5.a */; };
@@ -2054,6 +2091,58 @@
 		7B4EC87721B514D7008588B0 /* DKSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSWebViewController.h; sourceTree = "<group>"; };
 		7B4EC87921B514D7008588B0 /* DKSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSWebViewController.m; sourceTree = "<group>"; };
 		7B4EC87A21B514D7008588B0 /* DKSHTMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSHTMLController.m; sourceTree = "<group>"; };
+		7B4EC88521BBE24B008588B0 /* SelectGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectGameViewController.m; sourceTree = "<group>"; };
+		7B4EC89021BBE264008588B0 /* SelectGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectGameViewController.h; sourceTree = "<group>"; };
+		7B4EC89121BBE80D008588B0 /* hall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hall.png; sourceTree = "<group>"; };
+		7B4EC89221BBE80D008588B0 /* hall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hall2.png; sourceTree = "<group>"; };
+		7B4EC89521BBF081008588B0 /* bn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bn_back.png; sourceTree = "<group>"; };
+		7B4EC89821BBF228008588B0 /* UIColor+setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+setting.h"; sourceTree = "<group>"; };
+		7B4EC89921BBF228008588B0 /* HBPlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPlaySoundUtil.h; sourceTree = "<group>"; };
+		7B4EC89A21BBF228008588B0 /* UIColor+setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+setting.m"; sourceTree = "<group>"; };
+		7B4EC89B21BBF228008588B0 /* HBPlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPlaySoundUtil.m; sourceTree = "<group>"; };
+		7B4EC89F21BBF239008588B0 /* hdhGomokuChessModelTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuChessModelTemplate.m; sourceTree = "<group>"; };
+		7B4EC8A021BBF239008588B0 /* hdhGomokuGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuGameEngine.h; sourceTree = "<group>"; };
+		7B4EC8A121BBF239008588B0 /* hdhGomokuChessboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuChessboard.m; sourceTree = "<group>"; };
+		7B4EC8A221BBF239008588B0 /* hdhGomokuChessPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuChessPoint.h; sourceTree = "<group>"; };
+		7B4EC8A321BBF239008588B0 /* hdhGomokuBaseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuBaseStack.h; sourceTree = "<group>"; };
+		7B4EC8A421BBF239008588B0 /* hdhGomokuEnvisionStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuEnvisionStack.h; sourceTree = "<group>"; };
+		7B4EC8A521BBF239008588B0 /* hdhGomokuChessElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuChessElement.h; sourceTree = "<group>"; };
+		7B4EC8A621BBF239008588B0 /* hdhGomokuLinePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuLinePoints.h; sourceTree = "<group>"; };
+		7B4EC8A721BBF239008588B0 /* hdhGomokuActualStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuActualStack.h; sourceTree = "<group>"; };
+		7B4EC8A821BBF239008588B0 /* hdhGomokuChessModelTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuChessModelTemplate.h; sourceTree = "<group>"; };
+		7B4EC8A921BBF239008588B0 /* hdhGomokuChessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuChessboard.h; sourceTree = "<group>"; };
+		7B4EC8AA21BBF239008588B0 /* hdhGomokuGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuGameEngine.m; sourceTree = "<group>"; };
+		7B4EC8AB21BBF239008588B0 /* hdhGomokuEnvisionStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuEnvisionStack.m; sourceTree = "<group>"; };
+		7B4EC8AC21BBF239008588B0 /* hdhGomokuBaseStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuBaseStack.m; sourceTree = "<group>"; };
+		7B4EC8AD21BBF239008588B0 /* hdhGomokuChessPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuChessPoint.m; sourceTree = "<group>"; };
+		7B4EC8AE21BBF239008588B0 /* hdhGomokuActualStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuActualStack.m; sourceTree = "<group>"; };
+		7B4EC8AF21BBF239008588B0 /* hdhGomokuLinePoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuLinePoints.m; sourceTree = "<group>"; };
+		7B4EC8B021BBF239008588B0 /* hdhGomokuChessElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuChessElement.m; sourceTree = "<group>"; };
+		7B4EC8BA21BBF26D008588B0 /* hdhGomokuGameSencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuGameSencesViewController.m; sourceTree = "<group>"; };
+		7B4EC8BB21BBF26D008588B0 /* hdhGomokuPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuPieceView.h; sourceTree = "<group>"; };
+		7B4EC8BE21BBF26D008588B0 /* hdhGomokuGameSencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuGameSencesViewController.h; sourceTree = "<group>"; };
+		7B4EC8BF21BBF26D008588B0 /* hdhGomokuPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuPieceView.m; sourceTree = "<group>"; };
+		7B4EC8C021BBF26D008588B0 /* hdhGomokuOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hdhGomokuOverViewController.m; sourceTree = "<group>"; };
+		7B4EC8C121BBF26D008588B0 /* hdhGomokuOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdhGomokuOverViewController.h; sourceTree = "<group>"; };
+		7B4EC8CA21BBF67F008588B0 /* lost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lost.wav; sourceTree = "<group>"; };
+		7B4EC8CB21BBF67F008588B0 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		7B4EC8CC21BBF67F008588B0 /* down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = down.wav; sourceTree = "<group>"; };
+		7B4EC8CD21BBF67F008588B0 /* pipa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pipa.mp3; sourceTree = "<group>"; };
+		7B4EC8CE21BBF67F008588B0 /* marking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = marking.wav; sourceTree = "<group>"; };
+		7B4EC8CF21BBF67F008588B0 /* au_victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = au_victory.wav; sourceTree = "<group>"; };
+		7B4EC8D021BBF67F008588B0 /* check.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = check.wav; sourceTree = "<group>"; };
+		7B4EC8D121BBF67F008588B0 /* BgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BgMusic.mp3; sourceTree = "<group>"; };
+		7B4EC8D221BBF67F008588B0 /* au_gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = au_gameover.wav; sourceTree = "<group>"; };
+		7B4EC8D321BBF67F008588B0 /* mode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mode.wav; sourceTree = "<group>"; };
+		7B4EC8D421BBF67F008588B0 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
+		7B4EC8D521BBF67F008588B0 /* sy_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sy_back.png; sourceTree = "<group>"; };
+		7B4EC8D621BBF680008588B0 /* stone_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_black.png; sourceTree = "<group>"; };
+		7B4EC8D821BBF680008588B0 /* stone_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone_white.png; sourceTree = "<group>"; };
+		7B4EC8D921BBF680008588B0 /* gomokuboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gomokuboard.png; sourceTree = "<group>"; };
+		7B4EC8DA21BBF681008588B0 /* xhs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xhs.png; sourceTree = "<group>"; };
+		7B4EC8DB21BBF681008588B0 /* closeVolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeVolice.png; sourceTree = "<group>"; };
+		7B4EC8DC21BBF681008588B0 /* openVolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openVolice.png; sourceTree = "<group>"; };
+		7B4EC8DE21BBF682008588B0 /* tips-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tips-hd.png"; sourceTree = "<group>"; };
 		7B5F15C121B28564004709C1 /* jpush-extension-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-extension-ios-1.1.1.a"; sourceTree = "<group>"; };
 		7B5F15C221B28564004709C1 /* jpush-ios-3.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.1.a"; sourceTree = "<group>"; };
 		7B5F15C321B28564004709C1 /* JPushNotificationExtensionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationExtensionService.h; sourceTree = "<group>"; };
@@ -2165,6 +2254,8 @@
 		2443DC5D18D662CA00C920C1 /* m2048 */ = {
 			isa = PBXGroup;
 			children = (
+				7B4EC89E21BBF239008588B0 /* Engine */,
+				7B4EC89721BBF228008588B0 /* Component */,
 				3139889F21B3BE6D00B78602 /* Resources */,
 				7B4EC84A21B293F9008588B0 /* STCDefination.h */,
 				7B5F15DB21B28B14004709C1 /* common */,
@@ -2259,6 +2350,8 @@
 				2443DC9F18D6647000C920C1 /* hdhSettingsViewController.m */,
 				24C4517118E140AE0001FCFD /* hdhSettingsDetailViewController.h */,
 				24C4517218E140AE0001FCFD /* hdhSettingsDetailViewController.m */,
+				7B4EC88521BBE24B008588B0 /* SelectGameViewController.m */,
+				7B4EC89021BBE264008588B0 /* SelectGameViewController.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2276,6 +2369,12 @@
 		24C4516518DD64630001FCFD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7B4EC8BE21BBF26D008588B0 /* hdhGomokuGameSencesViewController.h */,
+				7B4EC8BA21BBF26D008588B0 /* hdhGomokuGameSencesViewController.m */,
+				7B4EC8C121BBF26D008588B0 /* hdhGomokuOverViewController.h */,
+				7B4EC8C021BBF26D008588B0 /* hdhGomokuOverViewController.m */,
+				7B4EC8BB21BBF26D008588B0 /* hdhGomokuPieceView.h */,
+				7B4EC8BF21BBF26D008588B0 /* hdhGomokuPieceView.m */,
 				7B5F15E121B28B28004709C1 /* LCLoginViewController.h */,
 				7B5F15DF21B28B28004709C1 /* LCLoginViewController.m */,
 				7B5F15E021B28B28004709C1 /* LCLoginViewController.xib */,
@@ -2292,6 +2391,18 @@
 		3139889F21B3BE6D00B78602 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7B4EC8DB21BBF681008588B0 /* closeVolice.png */,
+				7B4EC8D921BBF680008588B0 /* gomokuboard.png */,
+				7B4EC8DC21BBF681008588B0 /* openVolice.png */,
+				7B4EC8C921BBF67F008588B0 /* sound */,
+				7B4EC8D621BBF680008588B0 /* stone_black.png */,
+				7B4EC8D821BBF680008588B0 /* stone_white.png */,
+				7B4EC8D521BBF67F008588B0 /* sy_back.png */,
+				7B4EC8DE21BBF682008588B0 /* tips-hd.png */,
+				7B4EC8DA21BBF681008588B0 /* xhs.png */,
+				7B4EC89521BBF081008588B0 /* bn_back.png */,
+				7B4EC89121BBE80D008588B0 /* hall.png */,
+				7B4EC89221BBE80D008588B0 /* hall2.png */,
 				6B9384F821B52CFA006CEF80 /* Icon */,
 				313988A021B3BE6D00B78602 /* loading1.png */,
 				313988A121B3BE6D00B78602 /* shuimo2.png */,
@@ -3271,6 +3382,60 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7B4EC89721BBF228008588B0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EC89821BBF228008588B0 /* UIColor+setting.h */,
+				7B4EC89921BBF228008588B0 /* HBPlaySoundUtil.h */,
+				7B4EC89A21BBF228008588B0 /* UIColor+setting.m */,
+				7B4EC89B21BBF228008588B0 /* HBPlaySoundUtil.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7B4EC89E21BBF239008588B0 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EC89F21BBF239008588B0 /* hdhGomokuChessModelTemplate.m */,
+				7B4EC8A021BBF239008588B0 /* hdhGomokuGameEngine.h */,
+				7B4EC8A121BBF239008588B0 /* hdhGomokuChessboard.m */,
+				7B4EC8A221BBF239008588B0 /* hdhGomokuChessPoint.h */,
+				7B4EC8A321BBF239008588B0 /* hdhGomokuBaseStack.h */,
+				7B4EC8A421BBF239008588B0 /* hdhGomokuEnvisionStack.h */,
+				7B4EC8A521BBF239008588B0 /* hdhGomokuChessElement.h */,
+				7B4EC8A621BBF239008588B0 /* hdhGomokuLinePoints.h */,
+				7B4EC8A721BBF239008588B0 /* hdhGomokuActualStack.h */,
+				7B4EC8A821BBF239008588B0 /* hdhGomokuChessModelTemplate.h */,
+				7B4EC8A921BBF239008588B0 /* hdhGomokuChessboard.h */,
+				7B4EC8AA21BBF239008588B0 /* hdhGomokuGameEngine.m */,
+				7B4EC8AB21BBF239008588B0 /* hdhGomokuEnvisionStack.m */,
+				7B4EC8AC21BBF239008588B0 /* hdhGomokuBaseStack.m */,
+				7B4EC8AD21BBF239008588B0 /* hdhGomokuChessPoint.m */,
+				7B4EC8AE21BBF239008588B0 /* hdhGomokuActualStack.m */,
+				7B4EC8AF21BBF239008588B0 /* hdhGomokuLinePoints.m */,
+				7B4EC8B021BBF239008588B0 /* hdhGomokuChessElement.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		7B4EC8C921BBF67F008588B0 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EC8CA21BBF67F008588B0 /* lost.wav */,
+				7B4EC8CB21BBF67F008588B0 /* win.wav */,
+				7B4EC8CC21BBF67F008588B0 /* down.wav */,
+				7B4EC8CD21BBF67F008588B0 /* pipa.mp3 */,
+				7B4EC8CE21BBF67F008588B0 /* marking.wav */,
+				7B4EC8CF21BBF67F008588B0 /* au_victory.wav */,
+				7B4EC8D021BBF67F008588B0 /* check.wav */,
+				7B4EC8D121BBF67F008588B0 /* BgMusic.mp3 */,
+				7B4EC8D221BBF67F008588B0 /* au_gameover.wav */,
+				7B4EC8D321BBF67F008588B0 /* mode.wav */,
+				7B4EC8D421BBF67F008588B0 /* start.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		7B5F15C021B28564004709C1 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -3570,6 +3735,7 @@
 				6B9388D221B52CFE006CEF80 /* zhene_icon_c.webp in Resources */,
 				6B938A4121B52CFF006CEF80 /* gongjitisheng.webp in Resources */,
 				6B938A0321B52CFF006CEF80 /* equip_weapon_20.webp in Resources */,
+				7B4ECC8C21BBF686008588B0 /* down.wav in Resources */,
 				6B938B8721B52D00006CEF80 /* anyigongzhu_icon_zhuanshu.webp in Resources */,
 				6B938B1821B52D00006CEF80 /* huoqubing_o_icon_zhuanshu.webp in Resources */,
 				6B938C4621B52D01006CEF80 /* zhouyafu_icon_zhuanshu.webp in Resources */,
@@ -3620,6 +3786,7 @@
 				6B938AF021B52D00006CEF80 /* hongsen_icon_s.webp in Resources */,
 				6B938B4021B52D00006CEF80 /* 1zhanjiangduoqi_icon.webp in Resources */,
 				6B93893F21B52CFE006CEF80 /* jiangling_sp.webp in Resources */,
+				7B4ECC8B21BBF686008588B0 /* win.wav in Resources */,
 				6B938A7A21B52CFF006CEF80 /* zhiliaozengyi_book.webp in Resources */,
 				6B938B5221B52D00006CEF80 /* hanxin_icon_s.webp in Resources */,
 				6B938A5421B52CFF006CEF80 /* caijitisheng_book.webp in Resources */,
@@ -3650,6 +3817,7 @@
 				6B938BBA21B52D00006CEF80 /* kuaisuzhengtao_book.webp in Resources */,
 				6B93898A21B52CFE006CEF80 /* tongchoudikai_icon.webp in Resources */,
 				6B938C2F21B52D01006CEF80 /* gongjitishen.webp in Resources */,
+				7B4ECC8D21BBF686008588B0 /* pipa.mp3 in Resources */,
 				6B93898821B52CFE006CEF80 /* equip_staff_50.webp in Resources */,
 				6B938B9A21B52D00006CEF80 /* gift_equip_5.webp in Resources */,
 				6B938A4221B52CFF006CEF80 /* fangyutisheng.webp in Resources */,
@@ -3660,12 +3828,14 @@
 				6B93897121B52CFE006CEF80 /* gift_war_6_2.webp in Resources */,
 				6B938AA521B52CFF006CEF80 /* huangshuijing02.webp in Resources */,
 				6B938B9D21B52D00006CEF80 /* equip_weapon_90.webp in Resources */,
+				7B4ECC9921BBF686008588B0 /* gomokuboard.png in Resources */,
 				6B938BFB21B52D00006CEF80 /* kuaisuchuzheng_book.webp in Resources */,
 				6B938A4B21B52CFF006CEF80 /* libashanhe_icon.webp in Resources */,
 				6B938B1521B52D00006CEF80 /* item_binghun.webp in Resources */,
 				6B9388BB21B52CFE006CEF80 /* mount_bifang.webp in Resources */,
 				6B938BF121B52D00006CEF80 /* sumohan_icon_skill.webp in Resources */,
 				6B938B1621B52D00006CEF80 /* caijitisheng.webp in Resources */,
+				7B4EC89621BBF081008588B0 /* bn_back.png in Resources */,
 				6B938BD421B52D00006CEF80 /* guiguzi_icon_c.webp in Resources */,
 				6B938B0321B52D00006CEF80 /* pojiahoupao.webp in Resources */,
 				6B938BEA21B52D00006CEF80 /* equip_feet_40.webp in Resources */,
@@ -3761,6 +3931,7 @@
 				6B938BA521B52D00006CEF80 /* item_mount_jinghun.webp in Resources */,
 				6B938AA421B52CFF006CEF80 /* equip_feet_10.webp in Resources */,
 				6B938BE021B52D00006CEF80 /* weizifu_icon_s.webp in Resources */,
+				7B4ECC8A21BBF686008588B0 /* lost.wav in Resources */,
 				6B93896121B52CFE006CEF80 /* item_skill_skillstone.webp in Resources */,
 				6B938AAE21B52CFF006CEF80 /* 28miaoshouhuichun_icon.webp in Resources */,
 				6B93899E21B52CFF006CEF80 /* simaqian_icon_skill.webp in Resources */,
@@ -3779,6 +3950,7 @@
 				6B9389DF21B52CFF006CEF80 /* chengguangshi03.webp in Resources */,
 				6B9389A021B52CFF006CEF80 /* yingzheng_icon_skill.webp in Resources */,
 				6B93895A21B52CFE006CEF80 /* gift_common_2_4.webp in Resources */,
+				7B4ECC9A21BBF686008588B0 /* xhs.png in Resources */,
 				6B938B3C21B52D00006CEF80 /* liguang_icon_zhuanshu.webp in Resources */,
 				6B938ABA21B52CFF006CEF80 /* yiji_xianzhi.webp in Resources */,
 				6B938A1621B52CFF006CEF80 /* mount_qinglong.webp in Resources */,
@@ -3807,6 +3979,7 @@
 				6B938AAC21B52CFF006CEF80 /* 19tongzhougongji_icon.webp in Resources */,
 				6B9389E121B52CFF006CEF80 /* item_recruit_normal.webp in Resources */,
 				6B93899321B52CFF006CEF80 /* equip_ring_50.webp in Resources */,
+				7B4ECC9B21BBF686008588B0 /* closeVolice.png in Resources */,
 				6B938C0021B52D00006CEF80 /* kuaisuzhengtao.webp in Resources */,
 				6B938B7F21B52D00006CEF80 /* liguang_icon_skill.webp in Resources */,
 				6B9389EC21B52CFF006CEF80 /* item_quick_5m.webp in Resources */,
@@ -3892,6 +4065,7 @@
 				6B938AD121B52CFF006CEF80 /* item_card_suipian.webp in Resources */,
 				6B938C4121B52D01006CEF80 /* gift_vip_5.webp in Resources */,
 				6B938BD721B52D00006CEF80 /* fangguicon_zhuanshu.webp in Resources */,
+				7B4ECC9321BBF686008588B0 /* mode.wav in Resources */,
 				6B9388BC21B52CFE006CEF80 /* equip_ring_10.webp in Resources */,
 				6B9389C121B52CFF006CEF80 /* gift_common_4_5.webp in Resources */,
 				6B938A6421B52CFF006CEF80 /* qushanmofa.webp in Resources */,
@@ -4001,6 +4175,7 @@
 				6B938BBD21B52D00006CEF80 /* fusu_icon_zhuanshu.webp in Resources */,
 				6B938A2D21B52CFF006CEF80 /* item_exp_medium.webp in Resources */,
 				6B938B8521B52D00006CEF80 /* gift_vip_14.webp in Resources */,
+				7B4ECC9621BBF686008588B0 /* stone_black.png in Resources */,
 				6B938B9321B52D00006CEF80 /* liguang_icon_s.webp in Resources */,
 				6B9388D021B52CFE006CEF80 /* hongsen_icon_c.webp in Resources */,
 				6B93895021B52CFE006CEF80 /* huoqubing_o_icon_skill.webp in Resources */,
@@ -4010,6 +4185,7 @@
 				6B938BF921B52D00006CEF80 /* miyue_icon_zhuanshu.webp in Resources */,
 				6B9389ED21B52CFF006CEF80 /* fangshoudashi_book.webp in Resources */,
 				6B9389BB21B52CFF006CEF80 /* gift_binghun_3.webp in Resources */,
+				7B4ECC9821BBF686008588B0 /* stone_white.png in Resources */,
 				6B938BE221B52D00006CEF80 /* gift_common_3_2.webp in Resources */,
 				6B9389B321B52CFF006CEF80 /* card_square_icon_600040.webp in Resources */,
 				6B93890D21B52CFE006CEF80 /* item_resource_lianmenggongxian.webp in Resources */,
@@ -4090,11 +4266,13 @@
 				6B9389CB21B52CFF006CEF80 /* weizifu_icon_c.webp in Resources */,
 				6B938A2821B52CFF006CEF80 /* chengguangshi02.webp in Resources */,
 				6B93891321B52CFE006CEF80 /* yizhixie_icon_s.webp in Resources */,
+				7B4ECC9521BBF686008588B0 /* sy_back.png in Resources */,
 				6B938B7C21B52D00006CEF80 /* baojitishen.webp in Resources */,
 				6B938B8821B52D00006CEF80 /* hongsen_icon_skill.webp in Resources */,
 				6B9389F721B52CFF006CEF80 /* zhaofeiyan_o_icon_zhuanshu.webp in Resources */,
 				6B938A0A21B52CFF006CEF80 /* zhouyafu_icon_skill.webp in Resources */,
 				6B938A7621B52CFF006CEF80 /* equip_refine_4.webp in Resources */,
+				7B4ECC9E21BBF686008588B0 /* tips-hd.png in Resources */,
 				6B93892C21B52CFE006CEF80 /* 12yufenghuti_icon.webp in Resources */,
 				6B9389E421B52CFF006CEF80 /* 16zhenfengxiangdui_icon.webp in Resources */,
 				6B938A8C21B52CFF006CEF80 /* chenajiao_icon_s.webp in Resources */,
@@ -4112,6 +4290,7 @@
 				6B93895421B52CFE006CEF80 /* item_chop_four.webp in Resources */,
 				6B9388F221B52CFE006CEF80 /* renxingtisheng_book.webp in Resources */,
 				6B938A4F21B52CFF006CEF80 /* gift_common_4_4.webp in Resources */,
+				7B4ECC8F21BBF686008588B0 /* au_victory.wav in Resources */,
 				6B938A0121B52CFF006CEF80 /* item_mount_lingshoudan.webp in Resources */,
 				6B938B2521B52D00006CEF80 /* suwu_icon_zhuanshu.webp in Resources */,
 				6B9389FD21B52CFF006CEF80 /* item_city_ziqidonglai.webp in Resources */,
@@ -4129,6 +4308,7 @@
 				6B938B8621B52D00006CEF80 /* item_blue_rose.webp in Resources */,
 				6B9388FB21B52CFE006CEF80 /* baojitisheng.webp in Resources */,
 				6B938BA921B52D00006CEF80 /* item_union_tower.webp in Resources */,
+				7B4ECC9121BBF686008588B0 /* BgMusic.mp3 in Resources */,
 				6B9389C221B52CFF006CEF80 /* xufu_icon_s.webp in Resources */,
 				6B9389F821B52CFF006CEF80 /* baizhebunao.webp in Resources */,
 				6B938A1721B52CFF006CEF80 /* mount_qingniao.webp in Resources */,
@@ -4146,6 +4326,7 @@
 				6B938B6E21B52D00006CEF80 /* zhansunjiangdi_book.webp in Resources */,
 				6B938B3A21B52D00006CEF80 /* gift_common_3_4.webp in Resources */,
 				6B938A1521B52CFF006CEF80 /* liguang_icon_c.webp in Resources */,
+				7B4ECC9421BBF686008588B0 /* start.wav in Resources */,
 				6B938BE621B52D00006CEF80 /* lvzhi_icon_s.webp in Resources */,
 				6B9389B721B52CFF006CEF80 /* mengtian_icon_s.webp in Resources */,
 				6B938BAB21B52D00006CEF80 /* ziyayu01.webp in Resources */,
@@ -4188,6 +4369,7 @@
 				6B938AF821B52D00006CEF80 /* guozhi_icon_zhuanshu.webp in Resources */,
 				6B938AD921B52CFF006CEF80 /* item_gift_zizhuang_30.webp in Resources */,
 				6B93892D21B52CFE006CEF80 /* baojizengyi_book.webp in Resources */,
+				7B4EC89321BBE80E008588B0 /* hall.png in Resources */,
 				6B9388C521B52CFE006CEF80 /* qiangdao_icon_c.webp in Resources */,
 				6B938AB921B52CFF006CEF80 /* equip_staff_80.webp in Resources */,
 				6B9389BE21B52CFF006CEF80 /* lizhaoqing_icon_s.webp in Resources */,
@@ -4217,6 +4399,7 @@
 				6B938B5521B52D00006CEF80 /* gift_equip_2.webp in Resources */,
 				6B938C3D21B52D01006CEF80 /* huoguang_icon_s.webp in Resources */,
 				6B93899421B52CFF006CEF80 /* zhaogao_icon_skill.webp in Resources */,
+				7B4ECC9221BBF686008588B0 /* au_gameover.wav in Resources */,
 				6B93892421B52CFE006CEF80 /* gift_common_1_1.webp in Resources */,
 				6B9389D421B52CFF006CEF80 /* huoqubing_icon_c_cheng.webp in Resources */,
 				6B93890C21B52CFE006CEF80 /* gift_common_4_3.webp in Resources */,
@@ -4249,6 +4432,7 @@
 				6B93890B21B52CFE006CEF80 /* lidaitaojiang_icon.webp in Resources */,
 				6B938A9721B52CFF006CEF80 /* gift_character_5.webp in Resources */,
 				6B9389C021B52CFF006CEF80 /* equip_chest_20.webp in Resources */,
+				7B4EC89421BBE80E008588B0 /* hall2.png in Resources */,
 				6B9388FE21B52CFE006CEF80 /* pojiaqianpai_book.webp in Resources */,
 				6B938C3221B52D01006CEF80 /* simaxiangru_icon_zhuanshu.webp in Resources */,
 				6B938B8C21B52D00006CEF80 /* item_gift_kapai2.webp in Resources */,
@@ -4270,6 +4454,7 @@
 				6B938AC021B52CFF006CEF80 /* gift_vip_2.webp in Resources */,
 				6B9389D621B52CFF006CEF80 /* zhangliang_icon_s.webp in Resources */,
 				6B93890521B52CFE006CEF80 /* pingyanggongzhu_icon_zhuanshu.webp in Resources */,
+				7B4ECC9021BBF686008588B0 /* check.wav in Resources */,
 				6B938B0421B52D00006CEF80 /* card_square_icon_600018.webp in Resources */,
 				6B938B1A21B52D00006CEF80 /* gongchengdashi_book.webp in Resources */,
 				6B938C0721B52D00006CEF80 /* item_skill_gacha_normal.webp in Resources */,
@@ -4312,6 +4497,7 @@
 				6B938AD321B52CFF006CEF80 /* liji_zhuanshu.webp in Resources */,
 				6B938C2521B52D01006CEF80 /* huoqubing_o_icon_c.webp in Resources */,
 				6B938A9B21B52CFF006CEF80 /* 6jurenshashou_icon.webp in Resources */,
+				7B4ECC8E21BBF686008588B0 /* marking.wav in Resources */,
 				6B938AFD21B52D00006CEF80 /* yuji_icon_skill.webp in Resources */,
 				6B93897B21B52CFE006CEF80 /* item_quick_30m.webp in Resources */,
 				6B93899721B52CFF006CEF80 /* weizifu_icon_zhuanshu.webp in Resources */,
@@ -4343,6 +4529,7 @@
 				6B938AF221B52D00006CEF80 /* zhene_icon_s.webp in Resources */,
 				6B9389CA21B52CFF006CEF80 /* item_card_yellow.webp in Resources */,
 				6B938C1421B52D00006CEF80 /* card_square_icon_600008.webp in Resources */,
+				7B4ECC9C21BBF686008588B0 /* openVolice.png in Resources */,
 				6B938B5B21B52D00006CEF80 /* item_gift_chengzhuang_40.webp in Resources */,
 				6B9388E621B52CFE006CEF80 /* item_union_ambush.webp in Resources */,
 				6B9389E821B52CFF006CEF80 /* item_chop_black.webp in Resources */,
@@ -4461,21 +4648,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4EC8B421BBF239008588B0 /* hdhGomokuEnvisionStack.m in Sources */,
+				7B4EC8B521BBF239008588B0 /* hdhGomokuBaseStack.m in Sources */,
 				2443DCA618D66CCC00C920C1 /* hdhViewController.m in Sources */,
 				2443DC6418D662CA00C920C1 /* main.m in Sources */,
+				7B4EC8B121BBF239008588B0 /* hdhGomokuChessModelTemplate.m in Sources */,
+				7B4EC88621BBE24B008588B0 /* SelectGameViewController.m in Sources */,
+				7B4EC8C521BBF26D008588B0 /* hdhGomokuOverViewController.m in Sources */,
+				7B4EC89D21BBF229008588B0 /* HBPlaySoundUtil.m in Sources */,
 				24C4515B18D6DC4A0001FCFD /* hdhCell.m in Sources */,
 				24C4516818DD64A90001FCFD /* hdhGridView.m in Sources */,
 				7B4EC87E21B514D7008588B0 /* DKSHTMLController.m in Sources */,
+				7B4EC8B721BBF239008588B0 /* hdhGomokuActualStack.m in Sources */,
+				7B4EC8B921BBF239008588B0 /* hdhGomokuChessElement.m in Sources */,
+				7B4EC8C221BBF26D008588B0 /* hdhGomokuGameSencesViewController.m in Sources */,
 				7B5F15E221B28B28004709C1 /* LCLoginViewController.m in Sources */,
 				2443DC9A18D663FC00C920C1 /* hdhScene.m in Sources */,
+				7B4EC8B621BBF239008588B0 /* hdhGomokuChessPoint.m in Sources */,
 				24C4515E18D6DC740001FCFD /* hdhGrid.m in Sources */,
 				24C4518118E265390001FCFD /* hdhOverlay.m in Sources */,
 				7B4EC87D21B514D7008588B0 /* DKSWebViewController.m in Sources */,
+				7B4EC89C21BBF229008588B0 /* UIColor+setting.m in Sources */,
 				2443DCAF18D6C18400C920C1 /* hdhTile.m in Sources */,
 				2443DCA018D6647000C920C1 /* hdhSettingsViewController.m in Sources */,
 				7B5F15DE21B28B14004709C1 /* CommonAlert.m in Sources */,
+				7B4EC8B821BBF239008588B0 /* hdhGomokuLinePoints.m in Sources */,
 				24C4517018DFF10B0001FCFD /* hdhScoreView.m in Sources */,
+				7B4EC8C421BBF26D008588B0 /* hdhGomokuPieceView.m in Sources */,
+				7B4EC8B221BBF239008588B0 /* hdhGomokuChessboard.m in Sources */,
 				2443DCA318D6649500C920C1 /* hdhTheme.m in Sources */,
+				7B4EC8B321BBF239008588B0 /* hdhGomokuGameEngine.m in Sources */,
 				24C4517318E140AE0001FCFD /* hdhSettingsDetailViewController.m in Sources */,
 				24C4516418DABABE0001FCFD /* hdhGlobalState.m in Sources */,
 				2443DC6818D662CA00C920C1 /* hdhAppDelegate.m in Sources */,
