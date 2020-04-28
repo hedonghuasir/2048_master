@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="LD0-HJ-D6k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="LD0-HJ-D6k">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z5u-Bs-9Eo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-213" y="311"/>
+            <point key="canvasLocation" x="-340.80000000000001" y="279.76011994002999"/>
         </scene>
         <!--Hdh View Controller-->
         <scene sceneID="CtS-rA-C9T">
@@ -233,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244" y="311"/>
+            <point key="canvasLocation" x="390.39999999999998" y="279.76011994002999"/>
         </scene>
         <!--Hdh Gomoku Game Sences View Controller-->
         <scene sceneID="TbG-pz-lKx">
@@ -401,7 +401,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nsP-Dq-wi6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="227" y="1336"/>
+            <point key="canvasLocation" x="363.19999999999999" y="1201.7991004497751"/>
         </scene>
         <!--Hdh Gomoku Over View Controller-->
         <scene sceneID="cKZ-PB-wDS">
@@ -460,7 +460,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uc0-9r-A8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2871.2959999999998" y="50.95353148126032"/>
+            <point key="canvasLocation" x="4594.0735999999997" y="45.835260702782904"/>
         </scene>
         <!--设置-->
         <scene sceneID="6xC-WK-Uzx">
@@ -528,7 +528,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uVF-z9-YmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="bYg-ge-bIt" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1542.4000000000001" y="330.13493253373315"/>
+            <point key="canvasLocation" x="2467.8400000000001" y="296.97295280395787"/>
         </scene>
         <!--Hdh Settings Detail View Controller-->
         <scene sceneID="cGn-sm-IaZ">
@@ -568,7 +568,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cst-JU-Iv1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1542.4000000000001" y="935.53223388305855"/>
+            <point key="canvasLocation" x="2467.8400000000001" y="841.55823137906327"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tpl-yL-NEq">
@@ -586,7 +586,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fx5-TA-tz1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="872" y="330.13493253373315"/>
+            <point key="canvasLocation" x="1395.2" y="296.97295280395787"/>
         </scene>
     </scenes>
     <resources>
